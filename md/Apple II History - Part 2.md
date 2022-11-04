@@ -135,3 +135,6 @@ As time passed, some of the users of the Apple-1 faded away as they graduated to
 * [13] Coile, Brantley. Email, January 26, 2004. The original line here read "Association of Computer Machinery", which does not exist. The Association for Computing Machinery, on the other hand, does exist, and their web site is at http://www.acm.org. Furthermore, this was confirmed by Stan Veit in an e-mail 12 August 2005, in which he stated this was a typographical error in the book.
 * [14] Dilks, John. Email, May 14, 2004. As Show Manager for PC '76, he pointed out to me that my original statement here that there were "no other 6502 computers on display at the show" was incorrect. John still owns one of the Baby computers that was demonstrated at the show, and the KIM-1 was around for a while as well.
 
+--
+Steven Weyhrich
+v2.0 20 Oct 01
