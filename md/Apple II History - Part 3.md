@@ -84,8 +84,8 @@ The last part of the Apple II memory, from $F800-$FFFF, contained Wozniak's Moni
 * [1] Connick, Jack. "...And Then There Was Apple." Call-A.P.P.L.E. Oct 1986: 24.
 * [2] "Memory Organization", Apple II Reference Manual. Cupertino, CA, Apple Computer, Inc., 1979, 1981: 70-73.
 * [3] Golding ,Val J. "Applesoft From Bottom To Top." Call-A.P.P.L.E. In Depth #1 1981: 8.
-* [4] Moritz, Michael. The Little Kingdom. New York, William Morrow and Company, Inc, 1984: 157.
-* [5] Levy, Steven. Hackers: Heroes Of The Computer Revolution. New York, Dell Publishing Co., Inc, 1984: 260-261.
+* [4] Moritz, Michael. "The Little Kingdom". New York, William Morrow and Company, Inc, 1984: 157.
+* [5] Levy, Steven. "Hackers: Heroes Of The Computer Revolution". New York, Dell Publishing Co., Inc, 1984: 260-261.
 * [6] Wozniak, Steve and Allen Baum. "A 6502 Disassembler From Apple." Dr. Dobb's Journal of Computer Calisthenics & Orthodontia Sep 1976: 22-25.
 * [7] Connick, Jack: 23.
 * [8] Volpe, Christopher. "Beep: A Tale of (T)ERROR." Call-A.P.P.L.E. Mar 1983: 114.
