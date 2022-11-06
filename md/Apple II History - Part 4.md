@@ -66,5 +66,6 @@ At first, there were no interface cards for any of Woz's eight slots. With the l
 * [9] "A.P.P.L.E. Co-op Celebrates A Decade of Service". Call-A.P.P.L.E., Feb 1988: 12-27.
 * [10] Golding, Val J. "Applesoft From Bottom To Top", Call-A.P.P.L.E. In Depth #1, 1981: 8.
 
+--
 Steven Weyhrich
 v2.0  21 Apr 02
