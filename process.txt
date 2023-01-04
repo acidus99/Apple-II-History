@@ -1,0 +1,10 @@
+Checklist:
+
+- Frontmatter at top
+- author/date/version removed from bottom
+- Convert uppercase section headers into H2's ##
+- Rename footnotes to allow reordering
+- Add proper Images to body and references
+- Rename images to use sane file naming
+- finalize footnotes
+- Add space before footnote with regex [\"\.]\[\d
