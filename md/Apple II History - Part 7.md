@@ -1,10 +1,17 @@
+---
+title: The Apple IIe
+author: Steven Weyhrich
+date: June 27 2003
+version: v2.1
+---
+
 # Apple II History -- Part 7: The Apple IIe
 
 ## The Apple III Project
 
 Between the years 1979 and 1983, although no new versions of the Apple II were released, it enjoyed a broad popularity and annually increasing sales. The open architecture of the computer, with its fully described hardware and firmware function via the Reference Manual, made it appealing both to hardware and software hackers. Third-party companies designed cards to plug into the internal slots, and their function varied from making it possible to display and use 80-column text, to clocks and cards allowing the Apple II to control a variety of external devices. During this time there was also an explosion of new software written for this easily expandable machine, from the realm of business (VisiCalc and other spreadsheet clones), to utilities, to games of all types. Each month a host of new products would be available for those who wanted to find more things to do with their computer, and the Apple II was finding a place in the home, the classroom, and the office.
 
-At Apple Computer, Inc., however, the Apple II was not viewed with the same degree of loyalty. Although it had continued to be a sales leader, there were sentiments within the company as early as September, 1979 that it was unlikely the II could continue to be a best seller for more than another year or two. Since Apple Computer was a business, and not just a vehicle for selling the Apple II computer, they began to enlarge the engineering department to begin designing new products. [1] The beginning of these new design efforts began in 1978, and one of the earliest projects was an enhanced Apple II that used some custom chips; however, that project was never finished. They also began work on a different, more powerful computer that would use several identical microprocessor chips sharing tasks. The main advantage would be speed, and the ability to do high precision calculations. This computer was code-named Lisa, and because it was such a revolutionary type of design, they knew it would take many years to come to actual production. Because of the power it was to have, Apple executives felt that Lisa would be the future of the company. [2], [14]
+At Apple Computer, Inc., however, the Apple II was not viewed with the same degree of loyalty. Although it had continued to be a sales leader, there were sentiments within the company as early as September, 1979 that it was unlikely the II could continue to be a best seller for more than another year or two. Since Apple Computer was a business, and not just a vehicle for selling the Apple II computer, they began to enlarge the engineering department to begin designing new products. [1] The beginning of these new design efforts began in 1978, and one of the earliest projects was an enhanced Apple II that used some custom chips; however, that project was never finished. They also began work on a different, more powerful computer that would use several identical microprocessor chips sharing tasks. The main advantage would be speed, and the ability to do high precision calculations. This computer was code-named Lisa, and because it was such a revolutionary type of design, they knew it would take many years to come to actual production. Because of the power it was to have, Apple executives felt that Lisa would be the future of the company. [^2], [14]
 
 ![The Apple III](images/Apple3.jpg)
 
@@ -108,8 +115,7 @@ To use 5.25 disks with this Apple IIe, there was a cable that attached to the ca
 * [12] Weishaar, Tom. "Apple Introduces An Updated IIe", Open-Apple, Jan 1987: 3.1.
 * [13] Doms, Dennis. "The Apple II as Mac peripheral", Open-Apple, Jul 1991: 7.43-7.44.
 * [14] This was an early version of the Lisa project. When the 68000 microprocessor became available from Motorola, it was decided to use that as a single processor for the Lisa. Also, Jef Raskin (one of Apple's early employees) encouraged the Lisa team to visit the Xerox Palo Alto Research Center (PARC) and see the Xerox Star computer with its bit-mapped screen, icon interface and mouse pointing device. After Steve Jobs saw these wonders, he pushed strongly for the Lisa to work in that way.
-* [15] One of the problems with the Apple III involved heat production, which caused the integrated circuit chips in sockets to work themselves loose. Apple's solution even told some customers that a solution they could use was to lift the computer several inches up from the desktop, and then drop it, thus re-seating the chips!
-Slabihoud's excellent 8-Bit Museum (in German).
+* [15] One of the problems with the Apple III involved heat production, which caused the integrated circuit chips in sockets to work themselves loose. Apple's solution even told some customers that a solution they could use was to lift the computer several inches up from the desktop, and then drop it, thus re-seating the chips! Slabihoud's excellent 8-Bit Museum (in German).
 * [16] The first Macintosh to be able to display color was the Macintosh II, released in 1987 at a base price of $3898! The Macintosh LC appeared in October 1990, at a more reasonable (?) cost of $2400, and was specifically targeted to the home user. Thanks to Ernest Allen for correcting the original statement that the Mac LC was the first color Macintosh. References from www.apple-history.com.
 --
 Steven Weyhrich

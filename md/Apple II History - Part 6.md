@@ -1,3 +1,10 @@
+---
+title: The Apple II Plus
+author: Steven Weyhrich
+date: December 21 2002
+version: v2.0
+---
+
 # Apple II History -- Part 6: The Apple II Plus
 
 ## Hardware 
@@ -136,6 +143,3 @@ Another keyboard limitation was addressed through a modification that became kno
 * [14] Field, Bruce. "A.P.P.L.E. Doctor", Call-A.P.P.L.E., Jan 1984: 74-75.
 * [15] Additional Bell & Howell info from J Mayrand's Computer Museum.
 * [16] Villados, Brian. "Apple II Plus - Bell & Howell Model". The World According To... The Mac Geek, http://www.macgeek.org/museum/bhapple2plus/index.html (Dec 2002).
---
-Steven Weyhrich
-v2.1  21 Dec 02

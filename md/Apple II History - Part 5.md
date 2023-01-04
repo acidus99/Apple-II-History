@@ -1,3 +1,10 @@
+---
+title: The Disk II
+author: Steven Weyhrich
+date: December 28 2001
+version: v2.0
+---
+
 # Apple II History -- Part 5: The Disk II
 
 ## STORAGE NEEDS
