@@ -1,6 +1,6 @@
 # Apple II History
 
-Markdown version of Steven Weyhrich's Apple II History Project text files.
+Markdown versions of Steven Weyhrich's Apple II History Project text files with updated, properly licensed images.
 
 ## Why this project exists
 
@@ -9,6 +9,7 @@ I am a big fan of Steven Weyhrich's history of the Apple II, written in the 1990
 The versions that due exist have many issues:
 * Originally the files were just text, with minimal formatting, and ASCII art which doesn't render properly due to charsets.
 * Many versions of the files have hard newlines to keep lines below 40 characters or 80 characters
+* Weird and inconsistent indenting, spacing.
 * Images were added later, resulting in footnotes that are out of order
 * Some images don't have footnotes
 * Images are of low quality/low resolution typical of late 1990's
