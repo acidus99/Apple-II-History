@@ -19,12 +19,18 @@ The versions that do exist have many issues:
 I wanted to clean this content up and make it available to [Gemini Space](https://en.wikipedia.org/wiki/Gemini_(protocol)). Luckily [an early 2000's web version](https://www.duxburysystems.org/downloads/library/texas/apple/history/history/ah01.html) is licensed under a Creative Commons License.
 
 ## What I've done:
+
 * Converting content to Markdown
 * Adding YAML FrontMatter metadata
 * Fixing typos and errors
 * Replaced images with higher resolution images from properly licensed sources (Wikimedia Commons, Internet Archive, etc.)
 
 ## Sources
+
 * [Duxbury Systems mirror](https://www.duxburysystems.org/downloads/library/texas/apple/history/history/ah01.html) - Updated versions of all chapters hosted on Duxbury Systems mirror, released on Creative Commons Non Commercial license
 * Wikipedia/ Wikimedia Commons - Higher resolution and properly a licensed images
 * Internet Archive - Screenshots of Apple documents, manuals, and posts
+
+## Gemini Mirror:
+
+Gemtext versions of these posts are available on my Gemini Capsule: [gemini://gemi.dev/apple-folklore/](gemini://gemi.dev/apple-ii-history/)
