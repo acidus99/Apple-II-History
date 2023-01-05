@@ -54,7 +54,7 @@ Despite these hurdles, there was still a desire for a computer that was small en
 
 By 1972, the Intel 8008 was available for purchase and experimentation. It was somewhat difficult to work with, and could address only 16K of memory, but there were several small computers that were designed around it. The first computer that made use of the 8008 was the Micral, designed by François Gernelle. It was sold by the French company R2E for $1,750, fully assembled, but did not have any impact in the U.S. In 1974, Scelbi Computer Consulting (Scelbi stood for "SCientific, ELectronic, and BIological") began to sell a microcomputer called the Scelbi 8-H. It was available both as a kit for $565 and in assembled form. Its first advertisement appeared in the March 1974 issue of the amateur radio magazine, "QST".[7],[9] However, it had limited distribution, did not make a profit for the company, and due to the designer's health problems it didn't go very far.
 
-![Scelbi 8-H Mini Computer \[4\]](images/scelbi_8h.jpg)
+![Scelbi 8-H Mini Computer \[4\]](images/scelbi-8h.jpg)
 
 Another 8008 computer available the same year was the Mark-8. This computer appeared on the cover of the July 1974 issue of "Radio-Electronics", and was available as a kit. To build it, a hobbyist had to send in $5.00 and would receive in the mail plans for the kit. Also available were the printed circuit boards used in assembling the kit, and the 8008 processor from Intel cost only $120 by that time. Although it was a difficult kit to complete, about 10,000 manuals and about 2,000 circuit board sets were completed, and newsletters and small user groups appeared around the country.[7]
 
