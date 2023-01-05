@@ -1,4 +1,4 @@
-# Apple II History
+# Apple II History (Markdown Export)
 
 Markdown versions of Steven Weyhrich's Apple II History Project text files with updated, properly licensed images.
 
