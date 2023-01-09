@@ -3,6 +3,8 @@ APPLE II HISTORY
 
 Compiled and written by Steven Weyhrich
 (C) Copyright 1992, Zonker Software
+
+ (PART 15 -- DOS 3.3, ProDOS & Beyond)
 [v1.2 :: 30 Sep 92]
 
 DOS 3.3
