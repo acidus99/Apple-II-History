@@ -47,8 +47,3 @@ Apple bought the drives to sell with Woz's disk controller from Shugart, right t
 * [8] "Apple and Apple II History", The Apple II Guide, Cupertino, CA, Apple Computer, Inc., Fall 1990: 9-16.
 * [9] Rose, Frank. West Of Eden: The End Of Innocence At Apple Computer. New York, Penguin Books, 1989: 62.
 
-
----
-=> 06.gmi Next: The Apple II Plus
-=> 04.gmi Previous: The Apple II (Continued)
-=> index.gmi Apple II History index

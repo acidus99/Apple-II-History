@@ -139,9 +139,3 @@ The start and end dates for each model of the Apple IIe and Apple III:
 * [23] One of the problems with the Apple III involved heat production, which caused the integrated circuit chips in sockets to work themselves loose. Apple's solution even told some customers that a solution they could use was to lift the computer several inches up from the desktop, and then drop it, thus re-seating the chips! Slabihoud's excellent 8-Bit Museum (in German).
 * [24] The first Macintosh to be able to display color was the Macintosh II, released in 1987 at a base price of $3898! The Macintosh LC appeared in October 1990, at a more reasonable (?) cost of $2400, and was specifically targeted to the home user. Thanks to Ernest Allen for correcting the original statement that the Mac LC was the first color Macintosh. References from www.apple-history.com.
 * [25] Photo: Y-cable used for disk and joystick connectors. [Source](https://www.savagetaylor.com/wp-content/uploads/2018/09/appleiie_ycable-300x136.gif)
-
-
----
-=> 08.gmi Next: The Apple IIc
-=> 06.gmi Previous: The Apple II Plus
-=> index.gmi Apple II History index

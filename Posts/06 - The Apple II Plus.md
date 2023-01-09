@@ -177,9 +177,3 @@ The start and end dates for each model of the Apple-1, Apple II and II Plus:
 * [19] Field, Bruce. "A.P.P.L.E. Doctor", Call-A.P.P.L.E., Jan 1984: 74-75.
 * [20] Additional Bell & Howell info from J Mayrand's Computer Museum.
 * [21] Villados, Brian. "Apple II Plus - Bell & Howell Model". [The World According To... The Mac Geek](http://www.macgeek.org/museum/bhapple2plus/index.html),  (Dec 2002).
-
-
----
-=> 07.gmi Next: The Apple IIe
-=> 05.gmi Previous: The Disk II
-=> index.gmi Apple II History index
