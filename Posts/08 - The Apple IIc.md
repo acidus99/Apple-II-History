@@ -163,13 +163,4 @@ The start and end dates for each model of the Apple IIc, Lisa, and early Macinto
 * [18] Photo: Apple IIc with LCD display. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_IIc_with_LCD_display.jpg).
 * [19] -----. "Preface: The Apple IIc Family", Apple IIc Technical Reference Manual. Reading, Massachusetts, Addison-Wesley Publishing Company, Inc., 1984, 1986: xxiii-xxv.
 * [20] Photo: Apple IIc memory expansion card. [Apple II Documentation Project](https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Interface%20Cards/Apple%20IIc/Apple%20IIc%20Memory%20Expansion%20Card/Photos/Apple%20IIc%20Memory%20Expansion%20Card%20-%20Front.jpg).
-* [21] -----. Apple IIc Memory Expansion Card Owner's Guide. Cupertino, California, Apple Computer, Inc.,1986: 2-4. 
-
-
-
-
-
-
-
-
-
+* [21] -----. Apple IIc Memory Expansion Card Owner's Guide. Cupertino, California, Apple Computer, Inc.,1986: 2-4.
