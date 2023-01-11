@@ -7,9 +7,13 @@ version: v1.4
 
 # The Apple II Abroad & Peripherals
 
-## The apple ii abroad
+## The Apple II Abroad
 
-Soon after it was clear that the Apple II was a success in the United States, Apple expanded its market to include Europe and the Far East. This expansion made hardware, firmware, and software changes necessary in order to accomodate various standards outside of the U.S. The power supply had to be modified to handle either 240V (typically used in many parts of the world), the video output signal had to be changed from NTSC to PAL, and the keyboard layout had to be changed to allow for various language differences. Keyboard modifications were easiest in Europe where, for the most part, the standard Roman alphabet was used. One alteration necessary in that part of the world was the inclusion of diacritical marks or accents on letters. For example, the II Europlus had a modified ROM, and certain ESC key sequences could generate the German umlaut symbol ("¨") to go with certain vowels (such as ä or ü).  [PH1]
+![The Apple II J-Plus, developed for the Japanese Market \[1\]](images/apple-ii-j-plus.jpg)
+
+Soon after it was clear that the Apple II was a success in the United States, Apple expanded its market to include Europe and the Far East. This expansion made hardware, firmware, and software changes necessary in order to accommodate various standards outside of the U.S. The power supply had to be modified to handle either 240V (typically used in many parts of the world), the video output signal had to be changed from NTSC to PAL, and the keyboard layout had to be changed to allow for various language differences. Keyboard modifications were easiest in Europe where, for the most part, the standard Roman alphabet was used. One alteration necessary in that part of the world was the inclusion of diacritical marks or accents on letters. For example, the II Europlus had a modified ROM, and certain ESC key sequences could generate the German umlaut symbol ("¨") to go with certain vowels (such as ä or ü).  [PH1]
+
+![The Apple II Europlus, developed for the European Market \[AA\]](images/apple-ii-europlus.jpg)
 
 When the IIe was released there were some other differences. The German version was built with a an external switch below the keyboard, allowing the user to change between a standard U.S. layout and a German layout. (American versions of the IIe lacked the switch, but had a place on the motherboard that could be modified to allow a Dvorak keyboard layout to be switched in instead of the standard keyboard). The IIe auxiliary slot, which was placed in line with the old slot 0 on American versions (but moved forward on the motherboard) was placed in front of slot 3 on German versions. This was because the European Apple IIe's also had added circuitry to follow the PAL protocol for video output used for televisions and computer monitors in Europe (in the U.S. the NTSC protocol is followed). Because of the extra space needed on the IIe motherboard for the PAL circuits, the auxiliary slot had to be moved to be in line with slot 3. Because the 80-column firmware was mapped to slot 3, if an 80-column card was installed in the auxiliary slot it was not possible to use any other card in slot 3. Versions of the IIe made for other European countries had similar modifications to account for regional differences.  [PH1],  [PH2]
 
@@ -17,13 +21,13 @@ When The Apple IIc came along, it was designed from the start to take the foreig
 
 The Apple IIGS continued the practice of making international versions available, but improved on the design by making the various keyboard layouts all built-in. On the IIGS it was selectable via the control panel, as was the screen display of the special characters for each type of keyboard.
 
-## Apple ii peripherals
+## Apple II peripherals
 
-The ability to add an external hardware device to a computer has been there from the earliest days of the first Altair to the present. In fact, the success of a computer has inevitably led to hackers designing something to make it do things it couldn't do before. The more popular the computer, the more variety you will find in hardware add-ons. The Apple II, designed by a hacker to be as expandable as possible, was once a leader as a platform for launching new and unique hardware gadgets. By 1991, the Apple II unfortunately no longer held the front position; it had been supplanted by the Macintosh and IBM PC. However, for a few years the Apple II still received the benefits from the "trickle-down" of some of the best new devices from other computers (SCSI disk devices and hand scanners, for example). This was due partly to graduallyy emerging standards that made it easier to design a single hardware device that would work on multiple computers, and in the case of the Macintosh, because of Apple's decision to make peripherals somewhat compatible between the two computer lines.
+The ability to add an external hardware device to a computer has been there from the earliest days of the first Altair to the present. In fact, the success of a computer has inevitably led to hackers designing something to make it do things it couldn't do before. The more popular the computer, the more variety you will find in hardware add-ons. The Apple II, designed by a hacker to be as expandable as possible, was once a leader as a platform for launching new and unique hardware gadgets. By 1991, the Apple II unfortunately no longer held the front position; it had been supplanted by the Macintosh and IBM PC. However, for a few years the Apple II still received the benefits from the "trickle-down" of some of the best new devices from other computers (SCSI disk devices and hand scanners, for example). This was due partly to gradually emerging standards that made it easier to design a single hardware device that would work on multiple computers, and in the case of the Macintosh, because of Apple's decision to make peripherals somewhat compatible between the two computer lines.
 
 This chapter of the Apple II History will present an overview of hardware devices that were either significant in the advancement of the II, or unique, one-of-a-kind devices. This is definitely not a comprehensive list; it is limited to those peripherals about which the author has had personal experience or about which information could be located.
 
-WHAT IS A PERIPHERAL?
+## What is a peripheral?
 
 A basic definition of a peripheral would be, "Something attached to a computer that makes it possible to do more than it could previously do." It is called a "peripheral" because it usually is connected to the computer after it leaves the factory. An argument could be made that something built-in is not a peripheral, but as things have changed over time there are some devices still called "peripherals" from force of habit, though they are now built-in (hard disks come to mind). Quite probably, in time many devices that were once considered optional accessories will become so essential that they will always be built-in.
 
@@ -61,7 +65,7 @@ When the Apple IIe was released, with its RAM-based method of displaying 80 colu
 
 One unique video product was made by Synetix, Inc. around 1983. Their SuperSprite board plugged into slot 7 (which had access to some video signals not available on other slots), and was promoted as a graphics enhancement system. It worked by overlaying the hi-res screen with animated "sprite" graphics (programmable characters that moved independently on any screen background). Since each sprite was on its own "plane" on the screen, they didn't interfere with each other. Also, it didn't take extra effort by the 6502 microprocessor to manipulate the sprites; once the programmer placed the sprite on the screen and started it moving, it would continue until told to change. This was much easier than trying to program a hi-res game using standard Apple graphics. Unfortunately, at the price of $395 it never took off. (It was hard for developers to justify writing programs for only a few users that might have this card). Another company later made a similar card called the StarSprite, but it suffered the same fate. Even Apple's own double hi-res graphics, introduced on the IIe, had the same problem with a small supply of supporting software until the IIc and IIGS market got large enough to guarantee that enough owners had the capability of displaying double hi-res.  [PH10]
 
-ROM/RAM EXPANSION CARDS
+## ROM/RAM expansion cards
 
 All peripheral cards released for the Apple II up to the time of the Apple II Plus were usable only in slots 1 through 7. Slot 0 was designed differently, and until the release of the Applesoft Firmware Card ($200) in 1979 nothing had been built to make use of it. The Firmware Card contained ROM that paralleled the upper 12K of Apple II memory. If you recall from the discussion in Part 6 of this History, Integer BASIC and the ROM version of Applesoft covered the same space in memory, and so could not co-exist. When it was clear that a floating-point BASIC (Applesoft) was what many people wanted, the II Plus came out with Applesoft in ROM. To make sure that the previous Apple II owners were not left out, Apple released the Applesoft Firmware Card to plug into slot 0. It had a switch that allowed the user to select which BASIC should be active. In one position, the motherboard ROM would be selected, and in the other position the Applesoft and Autostart ROM was selected. Because there were quite a few Integer BASIC programs that Apple II Plus users wanted to run, the Firmware Card also came out in an Integer BASIC version with the old Monitor ROM, that allowed II Plus users to simulate owning a standard II.  [PH4]
 
@@ -71,7 +75,7 @@ The next card Apple released for slot 0 was called the Language Card. It was rel
 
 Since the only way to get Apple's Language Card was to buy the entire Pascal system ($495), it was too expensive for many users. Other companies eventually came out with similar cards that did not require purchasing Pascal, and some of them designed the cards with more "banks" of memory, making 256K or more of extra memory available. Saturn Systems was one early suppliers of the large RAM cards. Typically, each 16K bank on the card would be switched in to the same memory space occupied by the Language Card RAM through the use of a special softswitch.  [PH11]
 
-CO-PROCESSORS
+## Co-processors
 
 Although it did not go into slot 0, another significant card for the Apple II was the Microsoft Z-80 Softcard, which sold for around $300. First introduced at the Fourth West Coast Computer Faire in March 1980, it was a co-processor card, allowing the Apple II to run software written for the Z-80 microprocessor. The most popular operating system for the Z-80/8080 processors was the CP/M (Control Program for Microcomputers) system. Although the Disk II used a different method of recording data than was used by Z-80 computers, Apple II users managed to get programs such as the WordStar word processor transferred to the Apple CP/M system. Microsoft worked to make it compatible with the 80-column cards that were coming out at the time, since most CP/M software expected a screen of that size. [PH3],  [PH12]
 
@@ -103,13 +107,11 @@ The Rocket Chip, made by Bits And Pieces Technologies, was almost exactly the sa
 
 The rivalry between Zip Technologies and Bits And Pieces Technologies came from a mutual blaming of theft of technical information. The Bits & Pieces people insisted that they had done the original work on a single chip accelerator with the Zip people, but had all the plans and specifications taken away without their permission. Consequently, they had to form their own company and start from scratch to design their own chip. Zip, on the other hand, insisted that Bits & Pieces had stolen the technology from them. The problem eventually came to court, and it was decided that Zip Technologies was the originator of the technique and the Rocket Chip had to stop production.
 
-(Click here for more information about Zip Technologies and their involvement in the Apple IIc Plus).
-
-"(For additional information about Apple II accelerators, please see Paul Zaleski's excellent article in Wikipedia by clicking here)."
-
 ## Notes
 
+* [1] Photo: The Apple II J-Plus, developed for the Japanese Market. [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Apple_II_J-Plus.jpg).
 * [PH1] Huth, Udo. Email, Mar 1991.
+* [AA] Photo: The Apple II Europlus, developed for the European Market. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_II_Europlus_Tietokonemuseo.JPG).
 * [PH2] Spring, Michael. "Write-A.P.P.L.E.",Call-A.P.P.L.E., Apr 1984: 49-50.
 * [PH3] -----. "A.P.P.L.E. Co-op Celebrates A Decade of Service", Call-A.P.P.L.E., Feb 1988: 12-27.
 * [PH4] Peterson, Craig. The Computer Store, Santa Monica, CA, Store Information And Prices, Aug 10, 1979: 1.
@@ -121,13 +123,11 @@ The rivalry between Zip Technologies and Bits And Pieces Technologies came from 
 * [PH10] -----. "Tomorrow's Apples Today", Call-A.P.P.L.E., Oct 1983: 71.
 * [PH11] Weishaar, Tom. "A Concise Look At Apple II RAM", Open-Apple, Dec 1986: 2.81.
 * [PH12] -----. (ads), Call-A.P.P.L.E. In Depth #1, 1981: 106.
+* [PH19] Manes, Stephen and Paul Andrews. Gates. New York, Doubleday, 1993: 200-201.
 * [PH13] Weishaar, Tom. "Ask Uncle DOS", Open-Apple, Apr 1985: 1.32.
 * [PH14] Davidson, Keith. "The ALF 8088 Co-Processor", Call-A.P.P.L.E., Feb 1984: 54.
 * [PH15] Holcomb, Jeff. GEnie, A2 Roundtable, Mar 1992, Category 11, Topic 7.
 * [PH16] Utter, Gary. GEnie, A2 Roundtable, Dec 1991, Category 14, Topic 12.
 * [PH17] McKay, Hugh. GEnie, A2 Roundtable, Dec 1991, Category 14, Topic 12.
 * [PH18] Jones, Jay. GEnie, A2 Roundtable, Dec 1991, Category 14, Topic 12.
-* [PH19] Manes, Stephen and Paul Andrews. Gates. New York, Doubleday, 1993: 200-201.
-* [PH20] Photo: Apple II Europlus name plate, with permission of Paul Stuijt.
-* [PH21] Photo: Apple II Europlus - with permission of Reini's Computer Museum.
 * [PH22] Sander-Cederlof, Bob. "Review of Applied Engineering Transwarp", Apple Assembly Lines, March 1986, Vol 6, Issue 6.
