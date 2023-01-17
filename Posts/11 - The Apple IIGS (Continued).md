@@ -6,7 +6,7 @@ version: v2.0
 ---
 
 # The Apple IIGS (Continued)
-![The Apple IIGS Woz Signature Edition\[1\]](images/apple-iigs-system.jpg)
+![The Apple IIGS Woz Signature Edition \[1\]](images/apple-iigs-system.jpg)
 
 ## Miscellaneous hardware
 
