@@ -24,3 +24,4 @@ mogrify -strip -quality 80 -resize 800x800\> output/images/*
 grep -E -h '^!\[' Posts/*.md | > output/gallery.md
 printf '# Image Gallery\n\n' > output/gallery.gmi
 perl -pe 's/!\[(.+)?\s\\\[\d+\\]\]\(([^\)]+)\)/=> $2 $1/' output/gallery.md >> output/gallery.gmi
+rm -f output/gallery.md
