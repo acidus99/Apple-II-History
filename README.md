@@ -34,4 +34,4 @@ I wanted to clean this content up and make it available to [Gemini Space](https:
 
 ## Gemini Mirror:
 
-Gemtext versions of these posts are available on my Gemini Capsule: [gemini://gemi.dev/apple-folklore/](gemini://gemi.dev/apple-ii-history/)
+Gemtext versions of these posts are available on my Gemini Capsule: [gemini://gemi.dev/apple-ii-history/](gemini://gemi.dev/apple-ii-history/)
