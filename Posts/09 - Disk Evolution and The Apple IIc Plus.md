@@ -13,19 +13,19 @@ After Steve Wozniak's Disk II floppy drive changed the Apple II from a hobbyist 
 
 So what advances "did" occur in Apple II disk storage? Between 1978 (when Apple released their original Shugart 5.25 inch floppy drive) and 1984, no improvements in disk storage came from Apple. Third party companies produced patches that modified DOS 3.2 (and later DOS 3.3) to work with larger capacity drives, from eight-inch floppy drives to hard disks. Hard disks, though highly prized, were still not affordable to most Apple II owners; a 10 megabyte Covrus hard disk sold in the early 1980's cost $5,350! [2] If someone was fortunate enough to be able to add a hard drive to their Apple II, it was still necessary to modify DOS to be able to access that drive. A common means of using Apple DOS with a Corvus or Winchester hard drive was to format the hard drive as multiple 143K "floppies", each with a different volume number (necessary, since DOS did not have the ability to identify a disk by a volume name, as would eventually be possible with ProDOS). There were other short-lived innovations, also trying to make it possible to end the "floppy shuffle"; one of the more interesting ones put five floppy disks into a cartridge, and through software made them appear to the computer as one large disk drive.
 
-![Apple DuoDisk dual floppy disk drive \[3\]](images/disk-duodisk.jpg)
+![Apple DuoDisk dual floppy disk drive [3] ](images/disk-duodisk.jpg)
 
 Eventually Apple decided that the aging Disk II mechanism needed a face lift, and they introduced the DuoDisk in May of 1984. This was essentially two Disk II drives in a single cabinet, with a special controller card. The drive mechanism was improved to better read half-tracks on disks (which some copy-protected software used), and at $795 was priced to be less expensive than buying two of the older Disk II drives with a controller card. [4] The most important advantage of this new design was an elimination of the "fried disk drive" problem that happened constantly with the older design. The old Disk II controller had two connectors, one for each Disk II drive that could be connected. The problem was the in the design of the connector; like the game paddle plugs for the original Apple II and II Plus, the plugs for the Disk II drives were simply a series of pins that had to be properly aligned for the drive to function (similar to the delicate pins on a computer chip). If you tried to attach the plug in such a way as to accidentally shift the pins over by one, it would burn out the motor on the disk drive, requiring a trip for repairs to the local Apple dealer. The new DuoDisk design made connection of the disk mechanism to the controller fool-proof.
 
-![Apple Disk IIc floppy disk drive \[5\]](images/disk-disk-iic.jpg)
+![Apple Disk IIc floppy disk drive [5] ](images/disk-disk-iic.jpg)
 
 With the release of the Apple IIc in April 1984 came an external Disk II drive that was designed to plug into the new disk port in the back of the IIc, and was the same color and design as the IIc case. The Disk IIc was specific to the Apple IIc and could not be used with any older version Apple II, since it used a new, unique connector. However, since it was more expensive than a used Disk II drive, many users found out how to make a conversion cable to connect the older drive to the disk port; some even went the other direction and found ways to connect the new drive to the older Disk II controller cards for the II Plus and IIe.
 
-![Apple UniDisk 5.25 floppy disk drive \[6\]](images/disk-unidisk-5.25.jpg)
+![Apple UniDisk 5.25 floppy disk drive [6] ](images/disk-unidisk-5.25.jpg)
 
 The next small evolutionary step in disk storage technology for the Apple II was introduced in June 1985, with the release of the UniDisk 5.25. This drive was designed with the same appearance as the DuoDisk, but was a single 5.25 drive. It was also designed to allow one drive to be "daisy-chained" to another (one disk could plug into the back of another, forming a "chain"), instead of the older method of connecting each drive separately to the disk controller card. Its beige color was designed to match the original Apple IIe. [7], [9]
 
-![Apple 5.25 floppy disk drive \[8\]](images/disk-apple-5.25.jpg)
+![Apple 5.25 floppy disk drive [8] ](images/disk-apple-5.25.jpg)
 
 The last version of the Disk II was called the Apple 5.25 drive. It was identical to the UniDisk 5.25 drive, except for its case, which was designed in the platinum color to match the Apple IIGS and the platinum IIe. The connector it used allowed it to also be connected in a daisy-chain fashion. [9]
 
@@ -35,7 +35,7 @@ Let's digress for a moment from discussing specific Apple disk products and turn
 
 The physical layout of data on a disk is important to the hardware of the disk drive. If the computer tells the disk drive to retrieve data from the disk, it has to be able to tell the drive exactly "where "on the disk surface that data are stored. Most small capacity removable disks in use today (and when Steve Wozniak designed the original Disk II) store data on disks that are round, magnetically coated pieces of plastic that spin within a protective sleeve. The older 5.25 inch and 8 inch disks were "floppy" disks because they used a flexible protective sleeve (unlike the older yet but larger capacity "hard" or fixed disks, which usually could not be removed). The relatively newer 3.5 inch disks are also made of the same magnetically coated plastic, but their protective sleeve is a hard shell. Within its sleeve the thin plastic disk spins around rapidly while the disk drive motor is on.
 
-![Diagram: A disk divided into tracks \[10\]](images/disk-tracks.gif)
+![Diagram: A disk divided into tracks [10] ](images/disk-tracks.gif)
 
 When a disk is formatted, certain addresses are written to the disk surface in a pattern that is known to the program (the disk operating system) used by the computer controlling the disk drive. Most computers divide the disk surface up into concentric rings (called "tracks"), and each track is divided up into segments called sectors or blocks. Each segment holds a specific number of bytes of data; for the Apple II, this has been either 256 bytes (sectors on 5.25 disks) or 512 bytes (blocks on newer disk devices). The number of sectors or blocks per track differs, depending on the device in question; what is important is that the disk operating system knows how to get to the right block when a request is made of it.
 
@@ -53,13 +53,13 @@ One last note: Because a track on a disk contains a continuous stream of data bi
 
 ## The UniDisk 3.5 and Apple 3.5
 
-![Apple UniDisk 3.5 floppy disk drive \[11\]](images/disk-unidisk-3.5.jpg)
+![Apple UniDisk 3.5 floppy disk drive [11] ](images/disk-unidisk-3.5.jpg)
 
 The first new disk drive that Apple released after the original Disk II was a 400K, single-sided 3.5 inch drive for the original Macintosh. Then, in September 1985 Apple finally released a similar drive for the Apple II series, one that was not simply a cosmetic improvement of the original Disk II drive. The UniDisk 3.5 drive was a double-sided version of the Mac drive, and could hold 800K of data. The only connection that this new drive had with the original 5.25 drives was a chip used on its controller card; this IWM chip (for "Integrated Woz Machine") put the function of the original Disk II controller onto a single chip, plus the enhancements needed to operate this higher density drive. [7] Apple's design for the UniDisk 3.5 was unique, in that it used a modification to Sony's design that varied the speed of disk rotation, depending on which concentric track was being accessed. This change made it possible for data to be packed compactly enough in the smaller inner tracks to gain an extra 80K beyond the 720K that was originally possible.
 
 The UniDisk was directly supported by the newer Apple IIc motherboards (as mentioned in the previous part of this History), but for the older Apple II's a special controller card was required. The UniDisk 3.5 was designed as an "intelligent" drive, and had a self-contained 65c02 processor and memory to temporarily store ("buffer") data being read from or written to the disk. This was necessary because of the slow 1 MHz speed of the 6502 processors in the Apple II; they could not keep up with the faster data transfer rates possible with the 3.5 disk mechanism, plus the overhead of de-nibblization. This extra processing did cut down the speed in the UniDisk data transfer rate, but compared to the older Disk II drives it seemed "much" faster.
 
-![Apple 3.5 floppy disk drive \[12\]](images/disk-apple-3.5.jpg)
+![Apple 3.5 floppy disk drive [12] ](images/disk-apple-3.5.jpg)
 
 With the release of the Apple IIGS in September 1986 came a new version of the 800K 3.5 drive called the Apple 3.5. This mechanism could be used on either a Mac or Apple II, fitting into the trend at Apple at making peripherals compatible between the two computers. The major difference between this drive and the original UniDisk 3.5 was that it had been lobotomized to be a "dumb" drive. Gone was the internal 65c02 processor chip used in the UniDisk 3.5 (which made it an "intelligent" drive) and the ability of the drive to buffer its own read and write operations. The newer Apple 3.5 drive did away with the extra circuitry, leaving it to the computer to handle direct control of the drive. This could be done in the IIGS because of its faster 65816 microprocessor, which could keep up with the higher rate of data transfer. Recall from the above discussion of interleave that the original UniDisk 3.5 worked best with an interleave of 4:1, but the Apple 3.5 used 2:1 interleave and could do disk reads and writes faster. Disks formatted with either drive were usable with the other one, but would be slower on the "foreign" drive. [9]
 
@@ -67,7 +67,7 @@ Overall, Apple released four versions of 3.5 drives between 1984 and 1986. First
 
 ## The Apple IIc Plus: Hardware
 
-![The Apple IIc Plus \[13\]](images/apple-iic-plus.jpg)
+![The Apple IIc Plus [13] ](images/apple-iic-plus.jpg)
 
 By mid-1987, someone at Apple decided that the IIc needed to be upgraded. Shortly before July, three years after its original 1984 introduction, it was felt that the Apple IIc would benefit from the larger capacity Apple 3.5 drive as its internal drive. The primary intent was to make only this change, while leaving the rest of the IIc as it was. As with most other Apple projects, this went by various internal code names during its development, including Pizza, Raisin, and Adam Ant. [14]
 
@@ -75,11 +75,11 @@ Trying to use the Apple 3.5 drive in the Apple IIc was certainly an engineering 
 
 To support older Apple II software that came only on 5.25 disks, the disk port on the back was now changed to handle not only external 3.5 drives (either UniDisk 3.5 or Apple 3.5), but also up to "two" Apple 5.25 drives which could be chained together (the same drives used with the Apple IIGS). These could be chained together as could the 3.5 drives. The IIc Plus, then, could have three additional drives attached, in any mixture of Apple 3.5, UniDisk 3.5, or Apple 5.25 drives. [15]
 
-![Top view of the Apple IIc Plus \[16\]](images/apple-iic-plus-top.jpg)
+![Top view of the Apple IIc Plus [16] ](images/apple-iic-plus-top.jpg)
 
 The IIc Plus design was not thought out completely from start to finish, however. After they did the work with the special gate array to make the original IIc architecture work properly, someone decided that it was not a good idea to release a 1 MHz computer in 1987. People want speed, they reasoned; look at the world of the IBM PC and its clones, where each year faster and faster models are released. They decided then to retrofit the new IIc with a faster 4 MHz version of the 65c02. That change, had it been done from the start, would have made engineering the internal 3.5 drive simpler; they could have just used the processor at 4 MHz for 3.5 drive access, and then used the true system speed (as selected by the user) for all other functions. The complicated gate array would not have been necessary. But, since the faster speed was added as an afterthought, and the project was under a tight schedule, the gate array design was not changed.
 
-![Ad for the Zip Chip \[17\]](images/zip-chip.jpg)
+![Ad for the Zip Chip [17] ](images/zip-chip.jpg)
 
 To accomplish the faster processor speed for the IIc Plus, Apple went to another outside firm, Zip Technologies. This company had already marketed an accelerator, the Zip Chip, that was popular as an add-on product for existing Apple II computers. Users could simply remove the 6502 or 65c02 chip in their computer, replace it with the special Zip Chip, and suddenly they had a computer that ran up to four times as fast. Apple licensed this technology from Zip, but engineers balked at actually using the Zip Chip itself for the IIc Plus. Part of this was because of the size of the Zip Chip. The chip was shaped like a standard integrated circuit, but was thicker vertically than a basic 65c02. Inside the extra space was a fast 65c02 processor, plus some caching RAM, all squeezed into a space that would fit even into the original Apple IIc (where space was at a premium). (The Zip Chip "cache" is a piece of RAM memory that is used to hold copies of system memory that the processor is frequently accessing. For instance, if a lot of graphics manipulation is being done by a program, the caching RAM would hold a copy of part of the graphics RAM, and could access it much faster than the standard RAM. This is part of what makes an after-market accelerator work ).
 

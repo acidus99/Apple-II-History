@@ -9,7 +9,7 @@ version: v2.0
 
 ## Other Design Features
 
-![An Apple II \[1\]](images/apple-ii-side.jpg)
+![An Apple II [1] ](images/apple-ii-side.jpg)
 
 Since Steve Wozniak was the designer of the Apple-1 and II, exactly what contribution did Steve Jobs make to the effort? Unlike Wozniak, who would not think much of extra wires hanging out of a computer that worked properly, Jobs had an eye for the appearance of the final product. He wanted the Apple II to be a product that people outside the Homebrew Computer Club would want to own:
 
@@ -19,7 +19,7 @@ The final case design made the Apple II look quite different from most of their 
 
 Other aesthetics to which Jobs paid attention were the color of the keyboard, vents for heat dissipation (avoiding the need for a noisy fan), and a shape and color that would blend in with other items in a home or on a desk. He also hired an engineer who was good with analog circuitry (not Wozniak's area of interest) to design a reliable, lightweight power supply that would stay cool. The engineer, Rod Holt, was working at Atari at the time, but was convinced to help Jobs and Wozniak. He developed a new approach (for microcomputers) by taking household current and switching it on and off rapidly, producing a steady current that was safe for the expensive memory chips. The final design of this switching power supply was smaller than a quart carton of milk and was quite reliable. Holt also helped design the television interface for the Apple II. [4]
 
-![Apple II name plate \[5\]](images/apple-ii-nameplate.jpg)
+![Apple II name plate [5] ](images/apple-ii-nameplate.jpg)
 
 The new company was racing to have the Apple II ready for the First West Coast Computer Faire in April of 1977. Some last minute bugs had to be eliminated; because of a static electricity problem affecting a sensitive chip, the keyboards went dead every twenty minutes. Chris Espinosa and Randy Wigginton, two high school students who were early employees of Apple, had written programs to demonstrate the computer's color and sound. They were hurriedly working to duplicate these programs on cassette. People at Apple were working to fix blemishes in the computer cases that had returned from the plastics molding company. The name for this new computer was also finalized as "Apple II", following the example of Digital Equipment Company, who had given each newer version of its PDP series a higher number (PDP-1, PDP-6, etc.). They stylized the "II" in the product name by using right and left brackets, and displaying it on the case as "][". The final product bore the mark of each person at Apple:
 
@@ -32,11 +32,11 @@ As they prepared for the display at the First West Coast Faire, it was decided t
 > Rob Janoff, a young art director, was assigned to the Apple account and set about designing a corporate logo. Armed with the idea that the computers would be sold to consumers and that their machine was one of the few to offer color, Janov set about drawing still lifes from a bowl of apples ... He gouged a rounded chunk from one side of the Apple, seeing this as a playful comment on the world of bits and bytes but also as a novel design. To Janov the missing portion "prevented the apple from looking like a cherry tomato." He ran six colorful stripes across the Apple, starting with a jaunty sprig of green, and the mixture had a slightly psychedelic tint. The overall result was enticing and warm ...
 > [Steve] Jobs was meticulous about the style and appearance of the logo ... When Janov suggested that the six colors be separated by thin strips to make the reproduction easier, Jobs refused. [7]
 
-![Apple Computer Logo (late 1976 through 1998) \[8\]](images/apple-logo-six-colors.png)
+![Apple Computer Logo (late 1976 through 1998) [8] ](images/apple-logo-six-colors.png)
 
 For the Faire, Markkula had ordered a smoky, backlit, illuminated plexiglas sign with the new logo. Although Apple had a smaller booth than other companies displaying their products at the Faire, and some of the other microcomputer makers (Processor Technology, IMSAI, and Cromemco) had been in business longer, Apple's booth looked far more professional, thanks to Markkula's sign. Some of the other participants, companies larger than Apple, had done no more than use card tables with signs written in black markers.
 
-![Apple's sign from the 1977 West Coast Computer Faire \[9\]](images/apple-sign-1977.jpg)
+![Apple's sign from the 1977 West Coast Computer Faire [9] ](images/apple-sign-1977.jpg)
 
 Because they had been one of the first to commit themselves to displaying at the Faire, Apple's booth was near the entrance and was visible to everybody entering the convention center. They demonstrated a kaleidoscopic video graphics program (possibly an early version of "BRIAN'S THEME") on a huge Advent display monitor, catching everybody's attention. But, after the Faire its organizer Jim Warren (Homebrew club member and editor of "Dr. Dobb's Journal") didn't think that Apple was a strong exhibitor. "Byte" magazine, in their report of the show, failed to even mention Apple. Despite these early opinions by influential people, over the next few months Apple received about three hundred orders for the Apple II, over a hundred more than the total number of Apple-1's sold. [10]
 
@@ -48,7 +48,7 @@ Prebuilt systems were also sold by Commodore (the 6502-based PET, for $595), and
 
 The original manual for the Apple II was sparse. It consisted of thirty photocopied pages, including some handwritten notes from Woz. The cover stated, "simplicity is the ultimate sophistication: introducing Apple ][, the personal computer." In early 1978 these original photocopied manuals were replaced with the new "Apple II Technical Reference Manual" (also known as the "Red Book"), and copies were mailed to previous customers. Steve Jobs realized that people often viewed the quality of a product by the quality of its documentation, and so he took pains to get manuals that were easy to read and had a professional appearance. [11]
 
-![Cover of Apple II reference manual, also known as the "Red Book." \[12\]](images/book-apple-ii-reference-manual.jpg)
+![Cover of Apple II reference manual, also known as the "Red Book." [12] ](images/book-apple-ii-reference-manual.jpg)
 
 Setting up an early Apple II was fairly simple. The lid popped off easily, and one of the first things you would attach was the (RF modulator). This was plugged onto two pins sticking up from the back rear of the motherboard, near the video output jack (assuming that you did not also buy a" real" computer monitor). The game paddles were two small black boxes, with a knob on the top attached to a potentiometer (similar to volume controls on a radio) and a tiny black button on the side. These boxes were attached via a narrow cable to a plug that looked (and was) fragile; this plug also went into a small socket in the motherboard. Lastly, you attached your data storage device (the cassette recorder) to the input and output jacks in the back of the computer.
 

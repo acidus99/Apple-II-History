@@ -9,7 +9,7 @@ version: v2.0
 
 ## Hardware and Firmware
 
-![An Apple II in a typical 1977 configuration \[1\]](images/apple-ii-system.jpg)
+![An Apple II in a typical 1977 configuration [1] ](images/apple-ii-system.jpg)
 
 No hacker is completely satisfied with a project he is working on as long as it is possible to make improvements that make it better in some way. After Wozniak had completed design on the Apple-1, he already had in mind enhancements that would make his computer faster and more functional. He wanted to make it display in color. He worked to combine the terminal and memory functions of the Apple-1 by moving the display into main memory, allowing instant screen changes. None of these modifications were made specifically to make it a better product, or to make it more attractive for a customer to purchase. Wozniak stated:
 
@@ -17,7 +17,7 @@ No hacker is completely satisfied with a project he is working on as long as it 
 
 Wozniak added other features that he felt were important for a computer that was useful, one that he would want to own. Since the 6502 processor could address a total of 64K of memory, he designed the computer with the ability to use either 4K RAM chips, or the newer (and more expensive) 16K RAM chips. The first Apple II's came standard with 4K of memory, and more could be added, to a maximum of 12K (if using the 4K chips) or 48K (if using the 16K chips). Specially wired strapping blocks attached to the motherboard told the Apple II how much memory was present and where it was. According to the 1981 edition of the "Apple II Reference Manual", the Apple could have memory in the following sizes: 4K, 8K, 12K,16K, 20K, 24K, 32K, 36K, or a full 48K. These sizes were determined by the different ways that three RAM chips, either 4K or 16K, could be installed. The strapping blocks were even designed with the flexibility of allowing blank spots in memory if there were no RAM chips available to fill those spots.
 
-![Apple II RAM array \[3\]](images/apple-ii-ram.jpg)
+![Apple II RAM array [3] ](images/apple-ii-ram.jpg)
 
 The first 4K of memory always had to have RAM present, since it was used by the 6502 processor, the ROM routines, and the text screen display. If, for example, you only had two other 4K RAM chips to install and you wanted to display hi-res graphics, you could strap one chip to the lower half of hi-res memory from $2000-$2FFF, and the other to the upper half of hi-res memory from $3000-$3FFF. [4] Since 16K RAM chips cost about $500 when Wozniak designed the Apple II, not many users could afford them. Whereas the Commodore PET and the Radio Shack TRS-80 could not easily be expanded beyond the 4K they came with, the Apple II from the beginning was designed with expansion in mind. [5]
 
@@ -25,7 +25,7 @@ The row of eight expansion slots was another feature about the Apple II that was
 
 One problem Apple had to deal with was getting FCC approval for the computer. The RF (radio frequency) modulator that had been designed gave off too much interference, and it was probable that the FCC would not approve it. (The RF modulator allowed a user to attach the Apple to a standard television receiver, instead of requiring the purchase of an expensive computer monitor). Rather than have the release of the Apple II delayed for re-engineering of the RF modulator to get that FCC approval, Apple gave the specifications for the RF modulator to Marty Spergel. He ran a small company (called M&R Electronics) that specialized in obtaining hard-to-get parts that electronics and computer hackers wanted for their projects. Their agreement allowed M&R to make and sell the RF modulators, while Apple could concentrate on making and selling the Apple II. Dealers would sell an Apple II with a "Sup'R'Mod II" (costing about $30) if the buyer wanted to see the graphics on their color TV. Jobs assured Spergel that the item would sell well, maybe as many as fifty units a month. (Years later Spergel estimated that he had sold about four hundred thousand Sup'R'Mods). [7]
 
-![Sup'R'Mod II RF Modulator \[8\]](images/sup-r-mod.jpg)
+![Sup'R'Mod II RF Modulator [8] ](images/sup-r-mod.jpg)
 
 Other features that Wozniak (and Allen Baum, who helped him with the project) included in the Apple II ROMs included the terminal software to do screen text display, expanded Monitor functionality, and cassette input/output routines. They added the ability to split the screen into different sized windows. They also wrote a disassembler, which was one of the most important features of the Apple II from the beginning and a significant part of its open design. It allowed "anyone" to view the 6502 code that "any" program used, and matched the philosophy of the Homebrew Club of making all computer knowledge available to everybody. In the Apple-1 days, when Apple was supplying software "free or at minimal charge", Wozniak and Baum published an early version of their 6502 disassembler in a hacker's magazine. It was designed to be loaded in memory on the Apple-1 from $800 to $9D8 and the routine could be executed from the monitor. This early code was quit similar to the disassembler that was later included in the Apple II ROM. [9]
 
@@ -78,7 +78,7 @@ The memory from $D000 to $D7FF and $D800 to $DFFF was empty on all early Apple I
 
 All the routines on the Programmer's Aid #1 ROM were written by Wozniak between June 1977 (the RAM test routine) and April 1978 (program renumber and append), except for the music routine, which was written by Gary Shannon.
 
-![Apple Programmer's Aid #1 Book Cover \[12\]](images/book-programmers-aid.jpg)
+![Apple Programmer's Aid #1 Book Cover [12] ](images/book-programmers-aid.jpg)
 
 The other empty ROM socket (covering memory from $D800 to $DFFF) was never filled by Apple. Various third-party vendors sold ROMs for that socket (or for the $D000-$D7FF socket used by the Programmer's Aid #1 ROM), but none made enough of an inroad to be preserved in the INTBASIC file that would later be included on the DOS 3.3 System Master disk. In fact, the $D800-$DFFF space in the INTBASIC file on that disk contains an image of that same space taken directly from the Applesoft ROM! It is completely useless to Integer BASIC, of course, but disk files being what they are, Apple had to fill that space with "something"!
 

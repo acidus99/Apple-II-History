@@ -6,7 +6,7 @@ version: v2.0
 ---
 
 # The Apple IIGS (Continued)
-![The Apple IIGS Woz Signature Edition \[1\]](images/apple-iigs-system.jpg)
+![The Apple IIGS Woz Signature Edition [1] ](images/apple-iigs-system.jpg)
 
 ## Miscellaneous hardware
 
@@ -14,7 +14,7 @@ Other features Apple engineers added to make the Apple IIGS a next generation co
 
 Because the engineers wanted to make the IIGS capable of connecting to an AppleTalk network, the serial ports they planned were based on a different communications controller chip than was used in the older Super Serial Card and the Apple IIc serial controller. Although the new controller chips were more capable than the older ones used on the 8-bit Apple II's, telecommunications programs written for those older Apple's wouldn't work. This was because most terminal programs, for the sake of speed, were written to directly control the Super Serial Card (rather than going through the slower, built-in firmware commands). The controlling commands necessary to manage the newer chip were very different, and so caused such software to "break". [3]
 
-![An Apple IIe upgraded to an Apple IIGS \[4\]](images/apple-iigs-iie-upgrade.jpg)
+![An Apple IIe upgraded to an Apple IIGS [4] ](images/apple-iigs-iie-upgrade.jpg)
 
 The case and motherboard used in the Apple IIGS was made smaller than that found in the IIe, both in order to make a smaller "footprint" on a desktop, and also to make it easier to make an upgrade available for IIe owners. This original motherboard (known as a "ROM 0") was released with all the parts necessary to install it into an Apple IIe (the conversion kit included the motherboard, an optional mouse, and a backplane for the IIe.) [5] They had wanted to make it possible even for Apple II and II Plus owners to upgrade, but in the end it turned out to be just too expensive and difficult to execute. [3] The Apple IIe-to-IIGS upgrade resulted in a computer that looked like a IIe, but contained the motherboard of a IIGS. A new name plate on the cover identified the modified computer as a IIGS, even though in all other respects it looked like a IIe.
 
@@ -30,7 +30,7 @@ A boost to the firmware design of the IIGS came, unexpectedly, as a result of th
 
 To allow the user to easily configure certain features of the IIGS to their own tastes, a "control panel" was designed (another idea borrowed from the Macintosh). It was used to set the clock, the system speed (between a "normal" 1 MHz and a "fast" 2.8 MHz), change the standard text display from 40 to 80 columns, set colors for the text screen, set sensitivity of the mouse and keyboard, and make the standard settings for the printer and modem ports. These preferences were saved in a special battery-powered RAM that would survive even when the system power was turned off. [2]
 
-![Screenshot of Apple IIGS Control Panel software \[6\]](images/apple-iigs-control-panel.jpg)
+![Screenshot of Apple IIGS Control Panel software [6] ](images/apple-iigs-control-panel.jpg)
 
 ## System software
 

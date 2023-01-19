@@ -9,7 +9,7 @@ version: v2.1
 
 ## The Apple III Project
 
-![The Apple III \[1\]](images/apple-iii.jpg) 
+![The Apple III [1] ](images/apple-iii.jpg) 
 
 Between the years 1979 and 1983, although no new versions of the Apple II were released, it enjoyed a broad popularity and annually increasing sales. The open architecture of the computer, with its fully described hardware and firmware function via the Reference Manual, made it appealing both to hardware and software hackers. Third-party companies designed cards to plug into the internal slots, and their function varied from making it possible to display and use 80-column text, to clocks and cards allowing the Apple II to control a variety of external devices. During this time there was also an explosion of new software written for this easily expandable machine, from the realm of business (VisiCalc and other spreadsheet clones), to utilities, to games of all types. Each month a host of new products would be available for those who wanted to find more things to do with their computer, and the Apple II was finding a place in the home, the classroom, and the office.
 
@@ -17,7 +17,7 @@ At Apple Computer, Inc., however, the Apple II was not viewed with the same degr
 
 Because they knew that the Lisa project would take a long time to complete, and because the Apple II was perceived to have only a short remaining useful life as a product, they began a new computer project called the Apple III. Instead of building upon the Apple II as a basis for this new computer, they decided to start from scratch. Also, although Wozniak made most of the design decisions for the II, a committee at Apple decided what capabilities the Apple III should have. They decided that the Apple III was to be a "business" machine, and not have the home or arcade-game reputation that the II had. It was to have a full upper/lowercase keyboard and display, 80-column text, and a more comprehensive operating system. They also decided that since it would be a while before many application programs would be available for this new computer, it should be capable of running existing Apple II software. In some ways this handicapped the project, since it was then necessary to use the same microprocessor and disk drive hardware as was used in the Apple II. [4]
 
-![Apple III's Sophisticated Operating System \[5\]](images/apple-iii-sos.jpg) 
+![Apple III's Sophisticated Operating System [5] ](images/apple-iii-sos.jpg) 
 
 Apple executives also decided that with the introduction of the Apple III they wanted a clear separation between it and the Apple II in regard to marketing. They did not want "any" overlap between the two. The III would be an 80-column business machine and was predicted to have ninety percent of the market, while the Apple II would be a 40-column home and school machine and would have ten percent of the market. Apple's executives were confident that after the release of the Apple III, the Apple II would quickly lose its appeal. [6]
 
@@ -37,17 +37,17 @@ Apple has been much maligned for the attention they gave the Apple III project, 
 
 When Apple saw that the sales on the Apple II were "not" going to dwindle away, they finally decided to take another look at it. The first new look at advancing the design of the II was with a project called "Diana" in 1980. Diana was intended primarily to be an Apple II that had fewer internal components, and would be less expensive to build. The project was later known as "LCA", which stood for "Low Cost Apple". Inside Apple this meant a lower cost of manufacturing, but outsiders who got wind of the project thought it meant a $350 Apple II. Because of that misconception, the final code name for the updated Apple II was "Super II", and lasted until its release. [7] (Click on this link for a picture and description of a prototype for the Super II.)
 
-![Apple IIe at the Universum museum \[8\]](images/apple-iie.jpg) 
+![Apple IIe at the Universum museum [8] ](images/apple-iie.jpg) 
 
 ## Hardware
 
 Part of the IIe project grew out of the earlier work on custom integrated circuits for the Apple II. When they finally decided to go ahead and improve the design by adding new features, one of the original plans was to give the Apple II an 80-column text display and a full upper/lowercase keyboard. Walt Broedner at Apple did much of the original hardware planning, and was one of those at Apple who pushed for the upgrade in the first place. To help maintain compatibility with older 40-column software (which often addressed the screen directly for speed), he decided to make 80-columns work by mirroring the older 40 column text screen onto a 1K memory space parallel to it, with the even columns in main memory and the odd columns in this new "auxiliary" memory. To display 80-column text would require switching between the two memory banks. Broedner realized that with little extra effort he could do the same for the entire 64K memory space and get 128K of bank-switchable memory. They put this extra memory (the 1K "80-column card", or a 64K "extended 80-column card") in a special slot called the "auxiliary" slot that replaced slot 0 (the 16K Language Card was going to be a built-in feature). The 80-column firmware routines were mapped to slot 3, since that was a location commonly used by people who bought 80-column cards for their Apple II's, and was also the place where the Apple Pascal system expected to find an external terminal. The auxiliary slot also supplied some special video signals, and was used during manufacture for testing on the motherboard.
 
-![Apple IIe name plate \[9\]](images/apple-iie-logo.jpg) 
+![Apple IIe name plate [9] ](images/apple-iie-logo.jpg) 
 
 The engineers that worked on the IIe tried hard to make sure that cards designed for the II and II Plus would work properly in the new computer. They even had to "tune" the timing on the IIe to be slightly "off" (to act more like the II Plus) because the Microsoft Z-80 Softcard refused to function properly with the new hardware. A socket was included on the motherboard for attaching a numeric keypad, a feature that many business users had been adding (with difficulty) to the II Plus for years. The full keyboard they designed was very similar to the one found on the Apple III, including two unique keys that had first appeared with the III--one with a picture of an hollow apple ("open-apple") and the other with the same apple picture filled in ("solid-apple"). These keys were electrically connected to buttons 0 and 1 on the Apple paddles or joystick. They were available to software designers as modifier keys when pressed with another key; for example, open-apple-H could be programmed to call up a "help" screen. The newer electronics of the keyboard also made it easier to manufacture foreign language versions of the Apple IIe. [10]
 
-![Apple IIe keyboard with "Open Apple" key \[11\]](images/apple-iie-keyboard.jpg) 
+![Apple IIe keyboard with "Open Apple" key [11] ](images/apple-iie-keyboard.jpg) 
 
 Overall, Broedner and Peter Quinn (the design manager for the IIe and later the IIc projects) and their team managed to decrease the number of components on the motherboard from over one hundred to thirty-one, while adding to the capabilities of the computer by the equivalent of another hundred components.
 
@@ -75,7 +75,7 @@ This version of the Apple IIe was introduced in March of 1985. It involved chang
 
 For those who purchased the Enhanced IIe new, there were modifications to the appearance of the keyboard, including a darker color to the keys, a smaller size to the characters on the keys, a change to black color for that text, and movement of the character to the upper part of the key. Also, the power light had the word "Enhanced" added to it, to help distinguish it from the original Apple IIe. (This sticker was also included in the upgrade kit). 
 
-![Enhanced Apple IIe  with "Enhanced" text and darker keycaps \[15\]](images/apple-iie-enhanced-keyboard.jpg) 
+![Enhanced Apple IIe  with "Enhanced" text and darker keycaps [15] ](images/apple-iie-enhanced-keyboard.jpg) 
 
 Monitor changes also included a return of the mini-assembler, absent since the days of Integer BASIC. It was activated by entering a "!" command in the Monitor, instead of a jump to a memory location as in the older Apple II. Also added were an "S" command was added to make it possible to search memory for a byte sequence, and the ability to enter ASCII characters directly into memory. However, the "L" command to disassemble 6502 code still did not handle the new 65c02 opcodes as did the IIc disassembler. Interrupt handling was also improved.
 
@@ -87,19 +87,19 @@ The new MouseText characters caused a problem for some older programs at first, 
 
 This version of the IIe, introduced in January 1987, had a keyboard that was the same as the IIGS keyboard, but the RESET key was moved above the ESC and "1" keys (as on the IIc), and the power light was above the "/" on the included numeric keypad (the internal numeric keypad connector was left in place). The CLEAR key on the keypad generated the same character as the ESC key, but with a hardware modification it could generate a Ctrl-X as it did on the IIGS. The motherboard had 64K RAM in only two chips (instead of the previous eight), and one ROM chip instead of two. An "extended 80-column card" with 64K extra memory was included in all units sold, and was smaller than previous versions of that memory card.
 
-![An Apple IIe Platinum \[18\]](images/apple-iie-platinum.jpg)
+![An Apple IIe Platinum [18] ](images/apple-iie-platinum.jpg)
 
 No ROM changes were made. The old shift-key modification was installed, making it possible for programs to determine if the shift-key was being pressed. However, if using a game controller that actually used the third push-button (where the shift-key mod was internally connected), pressing shift and the third push-button simultaneously caused a short circuit that shut down the power supply. [19]
 
 ## IIe Emulation
 
-![Apple IIe card for Macintosh Computers \[20\]](images/apple-iie-card-for-mac.jpg)
+![Apple IIe card for Macintosh Computers [20] ](images/apple-iie-card-for-mac.jpg)
 
 In early 1991, Apple introduced a hardware add-on card for the Macintosh LC computer (the first low cost Mac that could display color [24]) which allowed it to emulate an 128K Apple IIe. This Apple IIe-on-a-card cost only $199, but the Mac LC needed to use the card sold for $2,495, which made the combination the most expensive Apple II ever made. Apple engineers managed to put the function of an entire IIe onto a card "smaller" than the old Disk II controller card. With version 2.0 of the Apple II interface software (which ran on the Mac and accessed the features of the card), more of the memory allocated to the Macintosh could be used by the IIe. However, unlike all previous versions of the IIe, there were no hardware-based slots on the IIe card; instead, it used software-based slots that were allocated by moving icons that represent various peripherals into "slots" on the Mac screen.
 
 To use 5.25 disks with this Apple IIe, there was a cable that attached to the card. The cable would split into a game connector (for paddles or joystick operation) and a connector that accepted IIc and IIGS style 5.25 drives. The IIe card ran at a "normal" (1 MHz) speed and a "fast" (2 MHz) speed. [21] It had limitations, however. For a 1991 Apple II, it was limited in being unable to be accelerated beyond 2 MHz (a Zip Chip could run a standard IIe at 8 MHz), and the screen response seemed slow, since it was using a software-based Mac text display instead of the hardware-based Apple II character ROM. As a Macintosh it lacked the power and speed of the newer Macintosh II models (which also ran color displays). But if having a Apple II and a Mac in one machine was important, this was the best way to do it. This card lasted longer than the "real" Apple IIe, not being discontinued until May 1995.
 
-![Y-cable used for disk and joystick connectors \[25\]](images/y-cable.gif) 
+![Y-cable used for disk and joystick connectors [25] ](images/y-cable.gif) 
 
 ## Timeline
 

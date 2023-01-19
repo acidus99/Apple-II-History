@@ -11,25 +11,25 @@ version: v1.0
 
 To discuss the smallest Apple II, the IIc, it is necessary to look at the environment and other events that were happening at Apple Computer, Inc. in the years preceding the release of this model.
 
-![The Apple Lisa \[1\]](images/apple-lisa.jpg)
+![The Apple Lisa [1] ](images/apple-lisa.jpg)
 
 Recall from "The Apple IIe" that it was shown how Apple's Lisa project was designated as the computer that was considered to be the future of Apple. From a series of parallel processors and a "bit slicing" architecture, to a focus on the Motorola 68000 microprocessor as the controller of this advanced computer, the project had been progressing very slowly. It was begun back in 1979 with the same focus as any other Apple product. Frank Rose, in his book "West Of Eden", explained the environment at Apple this way:
 
 > "Both [Apple III and Lisa] had been conceived of as nifty pieces of hardware rather than as products to appeal to a specific market: At Apple you designed a box and people bought it because it was neat, not because any thought had been given to what it would do for them." [2]
 
-![Apple Lisa badge \[3\]](images/apple-lisa-badge.jpg)
+![Apple Lisa badge [3] ](images/apple-lisa-badge.jpg)
 
 However, a significant change occurred in 1979 when Xerox bought a large chunk of Apple stock. In return for being allowed this stock purchase, Xerox allowed some of their research ideas to be used in designing an office computer. Jef Raskin, one of Apple's early employees, had seen the work being done at Xerox's Palo Alto Research Center (PARC), and encouraged the Lisa design team to take Xerox up on its offer. Steve Jobs went on that visit to PARC, and was significantly impressed with the Xerox Star computer and its user-interface, with its icons, bit-mapped graphics-based text characters, overlapping windows, and a pointing device called a "mouse". At this point, the Lisa took on a distinct personality that made it possible to become the ultra-computer Apple needed. This was important, since by 1981 Apple executives were getting sweaty palms worrying about the future. The Apple III was clearly "not" taking the business world by storm.
 
 Unfortunately for Jobs, who was excited about using the Xerox technology in designing a new computer, he was excluded from the Lisa project. After the problems associated with the introduction of the Apple III, a reorganization in 1980 moved the Apple II and III into one division, and the Lisa into another. Lisa was put under the control of John Couch, and Jobs was not allowed to participate. Since Lisa had been taken away, Jobs in 1981 began to look for something else that he could do at Apple. Raskin had previously begun his own design work on a computer that would be inexpensive and simple to use. He had named this computer "Macintosh", and during 1980 Raskin worked on guidelines to fulfill his dream of simplicity, and took some steps to begin design on the hardware. When Steve Jobs discovered the Macintosh project, he literally took it over, altering Raskin's ideas to have this computer run with the same Motorola 68000 processor used by the Lisa, and to use the same complex but easy-to-use interface as well. In essence, Jobs wanted to "out-Lisa the Lisa" by creating a smaller, less expensive computer that would do the same thing. [4]
 
-![Apple Macintosh \[5\]](images/macintosh-128k.jpg)
+![Apple Macintosh [5] ](images/macintosh-128k.jpg)
 
 While the Macintosh developed as a pirate project with a smaller team and less money than Lisa, the concept of an "appliance" computer also emerged. Instead of those messy slots and a lid that popped off (which made the Apple II so popular with the hacker community), Jobs' team was sold on the idea that all necessary features should simply be built-in and the case sealed. It would be something that you just plugged in, turned on, and started using. With the Xerox Star mouse/icon/window interface it would not only be easy to set up and turn on, but also easy to use. [4]
 
 ## Apple IIc: Beginnings
 
-![Apple IIc \[6\]](images/apple-iic.jpg)
+![Apple IIc [6] ](images/apple-iic.jpg)
 
 What was happening with the Apple II during this time? The efforts to make it less expensive to build were progressing, and the Apple IIe was in the formative stages. In the summer of 1981 someone proposed a portable Apple II, a book-sized computer. It wasn't until Steve Jobs became interested in it as engineering challenge, well after Macintosh was under way, that anything came of the idea:
 
@@ -47,7 +47,7 @@ Although he was told it was not be possible, Jobs strongly pushed for the mouse 
 
 They began work on the Apple IIc in earnest right after the IIe was finished. Because they were trying to squeeze an Apple IIe with 128K, 80 column routines, two serial cards, disk controller, and a mouse card into an 11 by 12-inch case, the design challenges were greater than with the IIe (recall that this was what appealed to Steve Jobs). The size of the case was determined by the decision to make it able to fit into a standard-sized briefcase. [9]
 
-![Side View of an Apple IIc \[10\]](images/apple-iic-side.jpg)
+![Side View of an Apple IIc [10] ](images/apple-iic-side.jpg)
 
 Apple also had the international market in mind when they designed the IIc. A special chip containing the keyboard map could easily be changed depending on the country where the computer would be sold, to make it consistent with regional keyboard differences. The external pushbutton would switch between the two different keyboards, between a UK and German layout, for example. In the U.S. version of the IIc it switched from a standard Sholes keyboard (also known as "QWERTY") to a Dvorak keyboard (which allows faster touch typing). The decision for the foreign keyboards came first; the added bonus for American versions of getting Dvorak came as an extra bonus, to save having two different cases (one for US and one for foreign versions). [9]
 
@@ -69,7 +69,7 @@ What about the unassigned slot 7? Here they put a small piece of code to allow b
 
 The programmers fixed some known bugs in the IIe ROMs, and added 32 graphics characters they called MouseText. To make MouseText fit they removed the ability to use flashing characters (when in 80 column mode) and replaced those characters with MouseText. Apple veteran Bruce Tognazzini designed the MouseText characters, which included a picture of a running man (perhaps to suggest "running" a program). He later sent a letter to Call-A.P.P.L.E. magazine to warn programmers that the Running Man characters (assigned to "F" and "G") had been determined to be unnecessary and would probably be replaced eventually. (This did eventually happen, but not with the IIc).
 
-![MouseText graphical characters \[12\]](images/mousetext.png)
+![MouseText graphical characters [12] ](images/mousetext.png)
 
 (Notice how the MouseText characters could be combined together to create pictures, or even a text-screen version of a graphic user interface. The "FG" characters represented the Running Man; the "XY" was a file folder (sort of); and a line of "\" characters could be a scroll bar, with a "P" as an arrow within that scroll bar, and the "^" as the right hand termination of the scroll bar.)
 
@@ -79,7 +79,7 @@ Beernick, Williams, and Huston also made some minor changes to the Applesoft par
 
 Apple's introduction of the new IIc came at an "event" at the Moscone Center in downtown San Francisco on April 24th, 1984. It was entitled "Apple II Forever", and was described as "part revival meeting, part sermon, part roundtable discussion, part pagan rite, and part county fair". Apple's objectives here were to introduce The Apple IIc, describe how it fit into the company's marketing strategy, show off new software that was made to work with the new computer, and emphasize that Apple was still firmly behind the Apple II line of computers. (Steve Jobs also took some of the time to report on the sales of the Macintosh in its first 100 days). [14]
 
-![Apple employees holding up Apple IIc computers for the computer dealers to examine \[15\]](images/apple-ii-forever.jpg)
+![Apple employees holding up Apple IIc computers for the computer dealers to examine [15] ](images/apple-ii-forever.jpg)
 
 One of the interesting things they did at the "Apple II Forever" event was the actual introduction of the IIc. Giant video screens were used to show previews of Apple's TV commercials for the IIc, as well as slides and images of the speakers, including Wozniak, Jobs, and Apple's new president, John Sculley. Sculley spoke of "sharing power", and then demonstrated that in a unique way: "After holding up the tiny IIc for everyone to see and eliciting a response that they'd like to see it better, Sculley ordered the house lights on. As the light burst forth, nearly every fifth person in the audience stood up, waving high a IIc. As startled dealers cheered uproariously, the Apple plants passed the IIcs to them. Within seconds of its introduction, more than a thousand Apple dealers had a production-line IIc in their hands." [14]
 
@@ -91,7 +91,7 @@ At the "Apple II Forever" event, they also had a general software exhibition and
 
 Their original goal had been to sell the IIc for $995. As productions costs turned out, they found that they couldn't hit that price, so they came up with $1,295, balancing the decision with the number of people who were predicted to buy the optional Monitor IIc or an external Disk IIc drive.
 
-![Back of an Apple IIc \[16\]](images/apple-iic-back.jpg)
+![Back of an Apple IIc [16] ](images/apple-iic-back.jpg)
 
 The only problem was that although the IIc was a technological breakthrough in miniaturization, customers at that time didn't value smallness. They viewed something that was too small as also being cheap and lacking power. Although The Apple IIc was equivalent to a IIe loaded with extra memory, a disk drive, two serial cards, and a mouse card, most customers seemed to want the more expandable IIe. Apple marketing went to much effort to make the IIc attractive, but it didn't sell as well as the IIe. Just as IBM overestimated the market when producing its PCjr (which eventually failed and was discontinued), so did Apple when producing the IIc (and the original Macintosh). [14]
 
@@ -105,7 +105,7 @@ The disk port on the original IIc was only designed to control an external 5.25 
 
 The video port worked with a standard monitor, but had access to all video signals. Included with the original IIc was an RF modulator that allowed it to be connected to a standard television (for color games). An RGB adapter box attached to the video port would allow a true RGB monitor to be attached, giving color and sharp, readable 80 column text on the same monitor. Apple also sold a flat-panel liquid crystal display for the IIc that attached to this video port. It was capable of 80 columns by 24 lines, as well as double hi-res graphics. Apple's price was about $600, but it looked somewhat "squashed" vertically, and did not sell well. Another company marketed a better flat panel liquid crystal display called the C-Vue.
 
-![Apple IIc with LCD screeen \[18\]](images/apple-iic-lcd.jpg)
+![Apple IIc with LCD screeen [18] ](images/apple-iic-lcd.jpg)
 
 With a battery attached to the 12V input, and a liquid crystal display, the IIc could be made into a truly portable computer. [17]
 
@@ -119,7 +119,7 @@ With the UniDisk 3.5 upgrade, the internal 16K ROM was increased in size to a 32
 
 The next Apple IIc upgrade was known as the Memory Expansion Apple IIc. This came as a response to requests for the ability to add extra memory to the IIc. Applied Engineering had already produced a Z-80 coprocessor for the IIc (to allow access to CP/M software), and an expanded memory card, up to 1 MB, which would either act as a RAMdisk for ordinary ProDOS applications, or as extra memory for the AppleWorks desktop (through a special patching program). Seeing the popularity of this, Apple released this third version of the IIc ROMs and motherboard, this time with a RAM expansion slot included. The Apple IIc Memory Expansion Card could take up to 1 MB of RAM, in 256K increments. The firmware in the new ROMs made it work as a RAMdisk automatically recognized by ProDOS and following the Smartport protocol that had been designed for the UniDisk 3.5. Apple even included code in the new ROM to patch DOS 3.3 so it could be used as a RAMdisk with that system (400K maximum size), and did the same with Pascal v1.3. Also, because this firmware was in the motherboard ROM, "any" company could make memory cards to attach to this version of the IIc.
 
-![ Apple IIc Memory Expansion Card \[20\]](images/apple-iic-memory-expansion-card.jpg)
+![ Apple IIc Memory Expansion Card [20] ](images/apple-iic-memory-expansion-card.jpg)
 
 Other changes made in this version of the IIc ROM included moving the mouse firmware from slot 4 to slot 7, and putting the RAMdisk firmware into slot 4. Also fixed was a bug that caused a write-protected 3.5 disk to be incorrectly identified with early versions of the UniDisk 3.5. [19], [21]
 

@@ -9,7 +9,7 @@ version: v2.1
 
 ## Hardware 
 
-![An Apple II Plus \[1\]](images/apple-ii-plus.jpg)
+![An Apple II Plus [1] ](images/apple-ii-plus.jpg)
 
 The introduction of an improved version of Applesoft BASIC in late 1978 began to build into a huge customer demand for this more powerful interpreter. The demand was fueled both by Applesoft's ability to do floating point math (which was needed by those wanting to write and use business and financial applications that needed numbers both to the right as well as to the left of the decimal point) and its inclusion of commands to handle the Apple II's high resolution graphics modes. During 1978, when the improved Applesoft was under development, Apple engineers began work on the Apple II Plus, a modest enhancement to the Apple II. The main attraction of this newer Apple would be Applesoft in ROM, available immediately without having to load it from cassette or disk. Also, having it in ROM would move it out of the part of memory where the RAM-based Applesoft interpreter conflicted with addresses used by the hi-res graphics modes. (Applesoft had commands specifically written into it for manipulating those graphics, something that Integer BASIC could only do via special CALLs to the routines in the Programmer's Aid #1 chip). This evolutionary enhancement to the Apple II was released in June 1979.
 
@@ -29,7 +29,7 @@ The RESET code was more intelligent in the Autostart ROM than in the Old Monitor
 
 The other major change, mentioned earlier, was the BASIC that was supplied in ROM. Gone was Steve Wozniak's hand-assembled Integer BASIC, in favor of the newer Applesoft. Since these ROM versions of BASIC used the same memory locations, they could not be used simultaneously. With the introduction of the II Plus, Apple also released the Applesoft Firmware Card (also known as the AppleSoft ROM Card). This card, which plugged into slot 0, made it possible for previous Apple II owners to have some of the benefits of the II Plus without having to buy an entirely new computer. Even with that card, however, you could not use features of one BASIC while the other was active, and switching from one BASIC to the other erased any program that was being used at the time. The two BASICs could be told apart by the prompt they used; Integer BASIC used the ">" character, but Applesoft used the "]" character.
 
-![Applesoft ROM Card \[5\]](images/applesoft-rom-card.jpg)
+![Applesoft ROM Card [5] ](images/applesoft-rom-card.jpg)
 
 Another change made to the Monitor ROM made screen editing easier. The original Apple II's procedure for editing a line typed in BASIC or in the Monitor was tedious at best. To change a line of text in BASIC, you had to list the line, move the cursor up to the start of the line, and then use the right-arrow key to "copy" text from the screen into the input buffer. If you wanted to skip part of the line, you had to move the cursor past the text that you wanted to eliminate "without" using the arrow keys. If you wanted to INSERT something into the line, you had to move the cursor off the line (above it or below it), type the additional text, and then move the cursor back into the line to finish copying the original part of the line. For example, suppose you had typed this line in Applesoft and displayed it on the 40-column screen:
 
@@ -86,11 +86,11 @@ The new Apple II Plus, at $1,195, sold for over $100 less than the original Appl
 
 Apple made a marketing deal early on with Bell & Howell to let them sell the Apple II Plus with a Bell & Howell name plate on it for use in schools. Bell & Howell had long been associated with education institutions through their sturdy movie projectors and other audio-visual equipment, which were used extensively by schools throughout the United States. The Apple II's sold through Bell & Howell were black colored (instead of the standard beige), earning them the nickname among computer hobbyists as the "Darth Vader" Apple II's (due to the color similarity with the "Star Wars" villain). These computers came with screws on the back to keep the lids on, specifically in order to comply with UL certification, which was often a requirement for equipment sold to schools. A typical Apple II Plus could not be certified as such, since it was "designed" to function with the lid off, which provided access to the internal components and, potentially, electric shock.
 
-![The "Darth Vader" Apple II Plus by Bell & Howell \[9\]](images/apple-ii-plus-bell-and-howell.jpg) 
+![The "Darth Vader" Apple II Plus by Bell & Howell [9] ](images/apple-ii-plus-bell-and-howell.jpg) 
 
 One model of the Bell & Howell Apple II Plus, Model A2S1048B, had an optional "backpack" attached to the rear of the computer. This backpack provided support for a coaxial cable to be attached for video output to the monitor (as well as the standard RCA phono jack for video), three 110 volt power outlets for peripherals, a carrying handle, three audio-in jacks, an audio-out jack, a standard 1/4 inch headphone jack, as well as the standard cassette input/output jacks. The power cord was quite long. Another model, A2S1032B, did not come with the backpack option. [20], [21] These computers also came with the "shift-key mod" (see below) already applied.
 
-!["Backpack" on Bell & Howell Apple II Plus \[10\]](images/apple-ii-plus-bell-and-howell-back.jpg) 
+!["Backpack" on Bell & Howell Apple II Plus [10] ](images/apple-ii-plus-bell-and-howell-back.jpg) 
 
 This version of the Apple II Plus could be purchased with Disk II drives that were colored the same black as the computer. Bell & Howell also sold a printer called the P-100, which was actually a renamed MPI model 99G with a Centronics-compatible parallel interface cable (directly attached to the printer), and a parallel printer card. [21]
 
@@ -106,7 +106,7 @@ An Apple II veteran on GEnie, Dennis Ulm, kindly provided me with the following 
 
 (LITTLE BRICKOUT was an abbreviated Applesoft version of Woz's Integer BASIC Breakout game (the reason he designed the Apple II in the first place). BRIAN'S THEME was a hi-res graphics program that drew lines on the screen in various patterns:
 
-![Screenshot of Brian's Theme demo \[13\]](images/brians-theme.png) 
+![Screenshot of Brian's Theme demo [13] ](images/brians-theme.png) 
 
 HOPALONG CASSIDY was a "guess who" program that also used the hi-res screen). [17], [18]
 

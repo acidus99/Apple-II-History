@@ -9,7 +9,7 @@ version: v2.0
 
 ## Storage Needs
 
-![Two Apple Disk II floppy drives \[1\]](images/disk-ii.jpg) 
+![Two Apple Disk II floppy drives [1]](images/disk-ii.jpg) 
 
 By December 1977 the Apple II had been generally available for about six months. Most customers used their television as an inexpensive color monitor, and used a cassette recorder to store and retrieve their programs and data. Apple's major competitors were the Radio Shack TRS-80 and the Commodore PET. The products made by these two companies, together with Apple, could be considered as the second generation of microcomputers; they all came fully assembled and ready to use out of the box, with a keyboard and cassette interface. The TRS-80 and the PET even came with a monitors and cassette recorders. The strength of the Apple was expandability and graphics, while the strength of the others was cost (both the TRS-80 and the PET sold for around $600, half the price of the Apple II).
 

@@ -7,7 +7,7 @@ version: v2.0
 
 # The Apple IIGS
 
-![The Apple IIGS \[1\]](images/apple-iigs-front.jpg)
+![The Apple IIGS [1] ](images/apple-iigs-front.jpg)
 
 ## The Apple II Evolves
 

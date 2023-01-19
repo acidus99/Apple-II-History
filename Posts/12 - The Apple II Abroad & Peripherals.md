@@ -9,11 +9,11 @@ version: v1.4
 
 ## The Apple II Abroad
 
-![The Apple II J-Plus, developed for the Japanese Market \[1\]](images/apple-ii-j-plus.jpg)
+![The Apple II J-Plus, developed for the Japanese Market [1] ](images/apple-ii-j-plus.jpg)
 
 Soon after it was clear that the Apple II was a success in the United States, Apple expanded its market to include Europe and the Far East. This expansion made hardware, firmware, and software changes necessary in order to accommodate various standards outside of the U.S. The power supply had to be modified to handle either 240V (typically used in many parts of the world), the video output signal had to be changed from NTSC to PAL, and the keyboard layout had to be changed to allow for various language differences. Keyboard modifications were easiest in Europe where, for the most part, the standard Roman alphabet was used. One alteration necessary in that part of the world was the inclusion of diacritical marks or accents on letters. For example, the II Europlus had a modified ROM, and certain ESC key sequences could generate the German umlaut symbol ("¨") to go with certain vowels (such as ä or ü).  [2]
 
-![The Apple II Europlus, developed for the European Market \[3\]](images/apple-ii-europlus.jpg)
+![The Apple II Europlus, developed for the European Market [3] ](images/apple-ii-europlus.jpg)
 
 When the IIe was released there were some other differences. The German version was built with a an external switch below the keyboard, allowing the user to change between a standard U.S. layout and a German layout. (American versions of the IIe lacked the switch, but had a place on the motherboard that could be modified to allow a Dvorak keyboard layout to be switched in instead of the standard keyboard). The IIe auxiliary slot, which was placed in line with the old slot 0 on American versions (but moved forward on the motherboard) was placed in front of slot 3 on German versions. This was because the European Apple IIe's also had added circuitry to follow the PAL protocol for video output used for televisions and computer monitors in Europe (in the U.S. the NTSC protocol is followed). Because of the extra space needed on the IIe motherboard for the PAL circuits, the auxiliary slot had to be moved to be in line with slot 3. Because the 80-column firmware was mapped to slot 3, if an 80-column card was installed in the auxiliary slot it was not possible to use any other card in slot 3. Versions of the IIe made for other European countries had similar modifications to account for regional differences.  [2],  [4]
 
@@ -43,61 +43,61 @@ Another of the earliest devices designed for the Apple II came from Apple Pugets
 
 ## Interface cards
 
-![Apple II Parallel Printer Interface Card \[6\]](images/card-apple-ii-parallel-printer.jpg)
+![Apple II Parallel Printer Interface Card [6] ](images/card-apple-ii-parallel-printer.jpg)
 
 One of the first interface cards made for the Apple II was released, naturally, by Apple. The Apple II Parallel Printer Interface Card was released in 1977 and sold for $180.  [7] Wozniak wrote the firmware ROM, and managed to make it fit entirely in only 256 bytes. As a parallel device, it used eight wires to connect the computer with a printer, one line for each data bit in a byte. Various parallel devices also used one or more extra wires as control lines, including a "busy" line (so the receiving device could tell the sending device to stop until it was ready for more), and a "ready" line (so the receiving device could tell the sending device to resume transmission). Because each of the eight bits needed a separate wire, the cables for parallel devices looked like ribbons and were not very compact. Most of the early printers available required this type of interface.  [8] A problem noticed with Apple's card, however, was an inability to properly handle these "busy" and "ready" signals (a process known as "handshaking"). One solution offered by a reader of Call-A.P.P.L.E. magazine in 1979 was to add a couple of chips to the card. If that was not done, however, the only way to do printouts that were very long was to either buy a 2K print buffer that could be used with some early printers, or use the "SPEED=" statement in Applesoft to slow down the speed at which data was sent to the printer.  [9],  [10]
 
 Apple released the Centronics parallel printer card in 1978. Selling for $225, it was specifically designed to work with Centronics brand printers.  [7] It was similar to the Parallel Printer Interface, but had fewer control codes. The "Centronics standard" used seven data bits and three handshaking bits.  [11] It would automatically send certain control codes to the printer when a program sent the proper command (such as a change in line width). As such, it was limited to properly working only with a Centronics printer, but many companies made printers that used the same control codes and would work with it.  [8]
 
-![The Apple II Serial Communication Board \[12\]](images/card-apple-ii-serial-communication.jpg)
+![The Apple II Serial Communication Board [12] ](images/card-apple-ii-serial-communication.jpg)
 
 In April 1978 the Apple II Serial Communication Board came out, selling for $225. [7] It was intended for use with a modem, and worked for speeds from 110 to 300 baud. The low speed (by today's standards) was for several reasons. One was that most modems of the time were acoustic. With an acoustic modem you dialed up the number yourself, and when you made a connection you put the handset (that's the part you talk and listen with, for you non-technical folks) into rubber sockets to seal out extraneous sound. A tiny speaker and microphone in the modem were then used to send and receive signals. This leads to a second reason for the low speeds of the time, which was that greater than 300 baud communications was not considered possible. In fact, the Phone Company was "quite" certain that speeds over 300 baud were not possible with any modem, although they would be glad to lease you a special data-quality phone line so you could get the best possible connection at 300 baud.
 
-![The Apple II Serial Interface Card \[13\]](images/card-apple-ii-serial-interface.jpg)
+![The Apple II Serial Interface Card [13] ](images/card-apple-ii-serial-interface.jpg)
 
 The Apple II Serial Interface Card ($195) appeared in August of 1978.  [7] Serial devices required fewer data transmission lines, and so could work with more compact cables. Instead of sending each byte as eight simultaneous bits as was done in parallel devices, serial interfaces send each byte as a series of eight bits, which only took two wires; one to send and one to receive data. Like the parallel cards, there were a couple of other wires that went with the data lines to control handshaking. Also, serial cards needed a means of letting the sending and receiving devices identify when a byte began and ended, and the speed at which data was being transmitted. This meant that some additional information, such as "start" bits, "stop" bits, and "parity" bits, was needed.
 
 The original version of the Serial Interface Card had a ROM that was called the P8 ROM. It contained the on-card program that allowed a user to print or otherwise communicate with the card without having to know much on the hardware level. The P8 ROM didn't support handshaking that used two ASCII control characters named ETX (Control-C) and ACK (Control-F), so a later revision called the P8A ROM was released. (ASCII stands for American Standard Code for Information Interchange). This worked better with some printers, but unfortunately the P8A ROM was not compatible with some serial printers that had worked with the earlier P8 ROM.
 
-![The Apple II Super Serial Card \[14\]](images/card-apple-ii-super-serial.jpg)
+![The Apple II Super Serial Card [14] ](images/card-apple-ii-super-serial.jpg)
 
 The Apple II Super Serial Card released in January 1981. It was called "super" because it replaced both the older Serial Interface Card and the Communications Card. To change from one type of mode to another, however, called for switching a block on the card from one position to another (from printer position to modem position). The Super Serial Card was also able to emulate both the P8 and P8A Serial Cards, making it compatible with most older software written specifically for those cards.  [15]
 
 ## Video cards
 
-![Sup'R'Terminal 80-column card \[16\]](images/card-apple-ii-suprterminal.jpg)
+![Sup'R'Terminal 80-column card [16] ](images/card-apple-ii-suprterminal.jpg)
 
 After getting a printer interface card (and printer), the next variety of peripheral cards popular for the Apple II and II Plus were ones that allowed display of 80 columns of text (which was rapidly becoming a standard outside the Apple II world). An early entry into this market was the Sup'R'Terminal card made by M&R Enterprises, the same company that made the Sup'R'Mod RF modulator for the Apple II. One of the most popular of the 80-column cards was the Videx Videoterm. Videx even made a display card, the Videx Ultraterm, that would display 132 columns card for the Apple II, but it never made much headway in the computer world (being supplanted by bit-mapped graphics displays, ala Macintosh). [5]
 
-![The Videx Videoterm 80-column card \[17\]](images/card-apple-ii-videx-videoterm.jpg)
+![The Videx Videoterm 80-column card [17] ](images/card-apple-ii-videx-videoterm.jpg)
 
 Many other companies made 80-column cards, but for the most part they were not very compatible with each other. One problem was deciding on a method to place the characters on the 80-column screen. With the standard Apple 40-column display, you could use either the standard routines in the Monitor, or directly "poke" characters to the screen. With these 80-column cards, they often used a standard from the non-Apple world, that of using special character sequences to indicate a screen position or other functions. For example, to put a character at row 12, column 2, a program needed to send an ESC, followed by a letter, followed by 12 and 02. Similar ESC sequences were used to clear the screen, scroll it up or down, or do other things that Apple's built-in screen routines could do.
 
 When the Apple IIe was released, with its RAM-based method of displaying 80 columns of text, nearly all the older 80-column cards disappeared from the market. As of 1991, only Applied Engineering still makes one for those remaining II and II Plus users that don't yet have an 80-column display.
 
-![The Synetix SuperSprite video card \[18\]](images/card-apple-ii-super-sprite.jpg)
+![The Synetix SuperSprite video card [18] ](images/card-apple-ii-super-sprite.jpg)
 
 One unique video product was made by Synetix, Inc. around 1983. Their SuperSprite board plugged into slot 7 (which had access to some video signals not available on other slots), and was promoted as a graphics enhancement system. It worked by overlaying the hi-res screen with animated "sprite" graphics (programmable characters that moved independently on any screen background). Since each sprite was on its own "plane" on the screen, they didn't interfere with each other. Also, it didn't take extra effort by the 6502 microprocessor to manipulate the sprites; once the programmer placed the sprite on the screen and started it moving, it would continue until told to change. This was much easier than trying to program a hi-res game using standard Apple graphics. Unfortunately, at the price of $395 it never took off. (It was hard for developers to justify writing programs for only a few users that might have this card). Another company later made a similar card called the StarSprite, but it suffered the same fate. Even Apple's own double hi-res graphics, introduced on the IIe, had the same problem with a small supply of supporting software until the IIc and IIGS market got large enough to guarantee that enough owners had the capability of displaying double hi-res.  [19]
 
 ## ROM/RAM expansion cards
 
-![The Applesoft Firmware Card \[20\]](images/card-apple-ii-firmware.jpg)
+![The Applesoft Firmware Card [20] ](images/card-apple-ii-firmware.jpg)
 
 All peripheral cards released for the Apple II up to the time of the Apple II Plus were usable only in slots 1 through 7. Slot 0 was designed differently, and until the release of the Applesoft Firmware Card ($200) in 1979 nothing had been built to make use of it. The Firmware Card contained ROM that paralleled the upper 12K of Apple II memory. If you recall from the discussion in Part 6 of this History, Integer BASIC and the ROM version of Applesoft covered the same space in memory, and so could not co-exist. When it was clear that a floating-point BASIC (Applesoft) was what many people wanted, the II Plus came out with Applesoft in ROM. To make sure that the previous Apple II owners were not left out, Apple released the Applesoft Firmware Card to plug into slot 0. It had a switch that allowed the user to select which BASIC should be active. In one position, the motherboard ROM would be selected, and in the other position the Applesoft and Autostart ROM was selected. Because there were quite a few Integer BASIC programs that Apple II Plus users wanted to run, the Firmware Card also came out in an Integer BASIC version with the old Monitor ROM, that allowed II Plus users to simulate owning a standard II.  [7]
 
 One of the benefits of the Integer BASIC ROM was the lack of something known as a "RESET vector" in the Autostart ROM. The Autostart Monitor was called that because it would automatically try to boot the Disk II drive when the power was turned on, and jumped to a known memory location when the RESET key was pressed. This allowed the disk operating system to reconnect itself, but more importantly made it possible to create copy-protected software. Since the Autostart ROM made it possible for a programmer to do something on RESET that prevented a user from examining his program, it was popular with companies producing programs that they didn't want copied and freely given away. Usually, a RESET on a protected program would restart the program, erase the program from memory, or re-boot the disk. The Integer BASIC and Old Monitor ROM lacked this feature; a RESET would just drop the user into the Monitor. This, of course, was just what hackers and those who liked to break copy-protection wanted. The users with non-Plus Apple II's or with the Integer BASIC Firmware Card on a II Plus could prevent a RESET from restarting "anything", allowing them to hack a program as much as they wanted.
 
-![The Apple Language Card \[21\]](images/card-apple-ii-language.jpg)
+![The Apple Language Card [21] ](images/card-apple-ii-language.jpg)
 
 The next card Apple released for slot 0 was called the Language Card. It was released in 1979 with Pascal, and expanded a 48K Apple II into a full 64K memory computer. It did not remove the upper 16K of ROM, but the card contained 16K of RAM that was electronically parallel to the ROM. Using "soft switches" (recall that these are memory locations that, when read or written to, caused something internally to change) one could switch out the ROM and switch in RAM memory. This extra memory was used to load the Pascal disk system, and under DOS 3.2 and 3.3, to load into RAM the version of BASIC that was not in the ROM. This was a more flexible alternative to the Firmware Card, and opened the way to other languages beyond BASIC for Apple II users.
 
 Since the only way to get Apple's Language Card was to buy the entire Pascal system ($495), it was too expensive for many users. Other companies eventually came out with similar cards that did not require purchasing Pascal, and some of them designed the cards with more "banks" of memory, making 256K or more of extra memory available. Saturn Systems was one early suppliers of the large RAM cards. Typically, each 16K bank on the card would be switched in to the same memory space occupied by the Language Card RAM through the use of a special softswitch.  [22]
 
-![Saturn Systems 128K RAM Board \[23\]](images/card-apple-ii-saturn-systems-128k.jpg)
+![Saturn Systems 128K RAM Board [23] ](images/card-apple-ii-saturn-systems-128k.jpg)
 
 ## Co-processors
 
-![Microsoft Z-80 SoftCard \[24\]](images/card-ms-softcard.jpg)
+![Microsoft Z-80 SoftCard [24] ](images/card-ms-softcard.jpg)
 
 Although it did not go into slot 0, another significant card for the Apple II was the Microsoft Z-80 Softcard, which sold for around $300. First introduced at the Fourth West Coast Computer Faire in March 1980, it was a co-processor card, allowing the Apple II to run software written for the Z-80 microprocessor. The most popular operating system for the Z-80/8080 processors was the CP/M (Control Program for Microcomputers) system. Although the Disk II used a different method of recording data than was used by Z-80 computers, Apple II users managed to get programs such as the WordStar word processor transferred to the Apple CP/M system. Microsoft worked to make it compatible with the 80-column cards that were coming out at the time, since most CP/M software expected a screen of that size. [5], [25]
 
@@ -109,7 +109,7 @@ A co-processor called the ALF 8088 had limited distribution. It worked with the 
 
 Even the Motorola 68000 processor used in the Macintosh came as a co-processor for the Apple II. The Gnome Card worked on the II Plus and IIe, but like other 68000 cards for the II, it didn't make a major impact, with the exception of those who wanted to do cross development (create programs for a computer using a microprocessor other than the one you are using).
 
-![The PC Transporter 8086 Card \[29\]](images/card-pc-transporter.jpg)
+![The PC Transporter 8086 Card [29] ](images/card-pc-transporter.jpg)
 
 The most successful device in this category was the PC Transporter, produced by Applied Engineering. It was originally designed by a company in the San Jose area called The Engineering Department (TED). The founder was Wendell Sanders, a hardware engineer who formerly had worked at Apple and was involved in the design of the Apple III and parts of the SWIM chip (Super Wozniak Integrated Machine) used in the IIc and IIGS. Around 1986 Applied Engineering began discussions with TED about buying the PC Transporter to sell and market it. At that time, the board was about four times the size it eventually became. AE's people were able to shrink a lot of the components down to just a few custom ASIC chips. The software that helped manage the board originally came from TED also.  [30] It was finally released in November 1987, and included a card that plugged into any of the motherboard slots (except slot 3) and one or more IBM-style disk drives. The PC Transporter used an 8086 processor and ran about three times as fast as the original IBM PC. It used its own RAM memory, up to a maximum of 768K, which could be used as a RAMdisk by ProDOS (when not in PC-mode). It used some of the main Apple memory for the interface code that lets the PC Transporter communicate with the hardware.
 
@@ -119,11 +119,11 @@ The PC Transporter has undergone some minor hardware changes and several sets of
 
 The two things that all computer users eventually need (or at least want) are more storage and faster speed. The 1 MHz speed of the 6502 and 65c02 chips is somewhat deceiving, when compared with computers that have processors running at a speed of 20 to 40 MHz. To put things into perspective: Since the 6502 does more than one thing with a single cycle of the clock on the microprocessor, a 1 MHz 6502 is equivalent to a 4 MHz 8086 chip. Therefore, an Apple II with an accelerator board or chip running at 8 MHz is equivalent to an MS-DOS computer running at 32 MHz.
 
-![MCT SpeedDemon Accelerator Card \[34\]](images/card-mct-speeddemon.jpg)
+![MCT SpeedDemon Accelerator Card [34] ](images/card-mct-speeddemon.jpg)
 
 One of the first accelerators for the Apple II was the SpeedDemon, made by MCT. This board used a faster 65c02 chip, with some high-speed internal memory that was used to actually execute the programs (since the internal Apple II memory chips were not fast enough). In essence, it put a second Apple II inside the one you could see, using the original one for input and output. Another speedup board was the Accelerator IIe by Titan Technologies (formerly Saturn Systems; they had to change their name because it was already in use by someone else). This board worked in a similar fashion to the SpeedDemon. Some users felt this product ran faster than the SpeedDemon, but it depended on the application being tested. Both boards were attached to the computer by plugging them into a slot other than slot 0 on the motherboard.
 
-![Applied Engineering's TransWarp Accelerator Card \[35\]](images/card-transwarp.jpg)
+![Applied Engineering's TransWarp Accelerator Card [35] ](images/card-transwarp.jpg)
 
 In 1986 Applied Engineering introduced the TransWarp accelerator board. This product lasted in the marketplace longer than any of the other ones, possibly because AE did far more advertising than the companies producing the older boards. The original TransWarp was available with a 65c02 processor and 256K of high-speed RAM for $249, or a 65802 for $338. The 256K of RAM was divided into four 64K banks. The first bank held a copy of the Apple II ROM from $D000-$FFFF; the second held a copy of the motherboard RAM; and the third and fourth banks were for expansion RAM (such as what was in the second 64K bank of RAM in a 128K Apple IIe). Because programs were being executed in high-speed RAM, rather than the RAM that was on the Apple II motherboard, programs could execute significantly faster.  [36]
 
