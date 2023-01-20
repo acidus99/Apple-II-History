@@ -23,7 +23,7 @@ A disk drive consists of a recording head that is mechanically moved across the 
 
 In the case of Apple's Disk II, it was designed with 35 concentric circles ("streets") called tracks. Each track is subdivided into 16 segments ("houses") called sectors. Each sector can hold 256 bytes of information. In the hardware system that Wozniak designed, the timing hole near the center of the floppy disk was not used by the hardware to keep track of which sector was passing the head at any particular time. Because of that, it was necessary for the software to identify in a different way where one sector ended and the next sector began. A complicated method was used of specially encoding each of the 256 bytes so they have a standard, recognizable appearance to a program that is controlling the disk drive, plus some other specialized bytes that identify the start and end of a sector. Although it did decrease somewhat the storage capacity of the disk, the cost savings in less complicated hardware compensated for it.
 
-DOS 3.1 - STRUCTURE & FUNCTION WITH BASIC
+## DOS 3.1 - Structure & Function with BASIC
 
 With this background, let's get back to tracing the gap between Woz's demo DOS and Apple's first official release, DOS 3.1. Worth and Lechner in their book, _Beneath Apple DOS_, divided DOS up into four parts according to function and location in memory. When a computer needs an operating system, it's because there is a need to insulate the user from the complexity of trying to control the hardware. Consider the four parts of DOS as layers; as you get closer to the bottom layer, you are closer to the hardware (the raw data on the disk and direct control of the disk drive), but you also increase greatly the difficulty of managing it. The farther up you go, the easier it is to manage things on the disk, but the less direct is the control of the disk data and hardware. [PH1], [PH2] When Wozniak wrote his disk controller (driver) routines, he worked at the deepest layer, directly manipulating the disk hardware and raw data. This involved some complex timing and error checking for reading and writing data to the disk. This section is also where the program lies that erases the disk and creates the sectors and their addresses. In memory, this layer of DOS started at $B800 on a 48K Apple II. [PH2], [PH3]
 
@@ -33,7 +33,7 @@ Apple had previously contracted with an outside consultant firm, Shepardson Micr
 
 Laughton took the handwritten object code for RWTS that Wozniak and Wigginton had created and entered it into his 6502 cross-assembler, adding comments to explain how RWTS worked. Next, it was necessary to decide how to make it possible for programs written in BASIC to make use of the Disk II. In an e-mail communication, Laughton commented on this next step in the process:
 
-The real genius behind the user interface specifications was Randy Wigginton (who was 19 at the time). Randy was the guy who had adapted Microsoft's BASIC to the Apple II. It was Randy who decided that the way to interface to the DOS was to do it from BASIC - rather than via a command line thing like CP/M. It was also Randy who figured out 'how' to make it work - intercepting the BASIC input stream, the various flags that would show if BASIC was running, etc. With these details provided by Randy, I designed the next layer of DOS - the User Interface. (It turns out this layer was much bigger than we had anticipated. This led to the first extension (of many) contracts between Shepardson and Apple for the DOS.)" [PH14]
+> The real genius behind the user interface specifications was Randy Wigginton (who was 19 at the time). Randy was the guy who had adapted Microsoft's BASIC to the Apple II. It was Randy who decided that the way to interface to the DOS was to do it from BASIC - rather than via a command line thing like CP/M. It was also Randy who figured out 'how' to make it work - intercepting the BASIC input stream, the various flags that would show if BASIC was running, etc. With these details provided by Randy, I designed the next layer of DOS - the User Interface. (It turns out this layer was much bigger than we had anticipated. This led to the first extension (of many) contracts between Shepardson and Apple for the DOS.)" [PH14]
 
 Although a few modifications were later made by Apple programmers Dick Huston and Rick Auricchio)  [PH4], [PH5], [PH6], Laughton designed and wrote the rest of DOS  [PH14], specifically the layers (parts) that later became known as the "File Manager" and the "Main DOS routines". The File Manager was the next layer in memory above RWTS. It started at $AAC9 in memory, and was responsible for twelve higher level functions that dealt with files and the disk in general. These functions were OPEN, CLOSE, READ, WRITE, DELETE, CATALOG, LOCK, UNLOCK, RENAME, POSITION, INIT (format a disk and create an empty catalog track), and VERIFY. This set of routines, along with RWTS, would be similar to the file PRODOS in the current 8-bit disk operating system. It handled the disk at the file level, but knew nothing about BASIC. [PH2], [PH3]
 
@@ -45,59 +45,129 @@ Here is an example of how the layers of DOS interacted: When a user typed the co
 
 Finally, one piece of trivia: Why was the first DOS released for the Apple II called "DOS 3.1" rather than "DOS 1.0"? Previously, I had written that Steve Wozniak believed it was Shepardson Microsystems that decided on calling it "DOS 3". [PH2] However, Paul Laughton notes on his web site this more accurate explanation:
 
-Why was the first release of Apple DOS called Apple DOS 3.1?
-Every time I recompiled the code, I incremented a revision counter. The counter started at Rev 0.1. Whenever I got to (n).9, I would roll the counter over to (n+1).0. The first listing I gave Apple was Rev 2.8. They (I forget who) decided they could not call it DOS 2.8, so they changed it to DOS 3.0. Apple did the beta testing with this version (2.8 renamed 3.0). When Apple shipped the DOS for revenue, they incremented it to 3.1 to indicate that the code had changed from the beta version. As a final note, when I transferred the source code to Apple in October, 1978 the Rev number was up to 6.3. [PH13]
+> Why was the first release of Apple DOS called Apple DOS 3.1?
+> Every time I recompiled the code, I incremented a revision counter. The counter started at Rev 0.1. Whenever I got to (n).9, I would roll the counter over to (n+1).0. The first listing I gave Apple was Rev 2.8. They (I forget who) decided they could not call it DOS 2.8, so they changed it to DOS 3.0. Apple did the beta testing with this version (2.8 renamed 3.0). When Apple shipped the DOS for revenue, they incremented it to 3.1 to indicate that the code had changed from the beta version. As a final note, when I transferred the source code to Apple in October, 1978 the Rev number was up to 6.3. [PH13]
 
 (As mentioned in Paul's note, DOS 3.0 was never actually released to the public, as it was a beta version which still had a few bugs left to fix, so "DOS 3.1" came with the first Disk II drives shipped by Apple to their dealers).
 
-DOS 3.1 - MANUAL
+# DOS 3.1 - Manual
 
 When originally introduced with the new Disk II drive in 1978, DOS 3.1 had very little documentation. Because the demand for the disk drive was so great, the engineers at Apple had worked feverishly to produce enough working drives to begin shipping. They went out, although there was not time to complete a real manual on how to use the disk operating system. They did include a leaflet about some of the commands, but there were still, obviously, complaints. One letter to Apple president Mike Markkula made these blunt comments: "You [expletive deleted]. I bought an Apple with floppy and nobody, I mean nobody, in L.A. or San Diego knows how to use the [thing] for random access files. I really feel 'ripped off.' Everybody talks about this great manual in the sky that is coming out soon??? ... [more expletives]! I need this computer now in my business not next year. [Expletive]. I hope your dog dies." [PH7]
 
 It was not until the release of DOS 3.2 in February 1979 that a true reference manual was made available. It was given the unwieldy title, "Disk II Floppy Disk Subsystem Installation and Operating Manual", and subtitled "Apple Intelligent Subsystems (part #030-0011-00)". It was all of 38 pages long, with weak jokes and typos, but not much else of substance. Instruction on how to READ and WRITE text files was given in a mere ten lines, with no programming examples. The EXEC command was given a little more description, but was still unclear to many users. The manual also talked about " *3D0G ". What it "didn't" say was that this meant that the user was supposed to type "3D0G" from the Monitor prompt (to allow a return to the active BASIC with DOS connected). [PH8], [PH9]
 
-
-DOS 3.1 - FEATURES
+## DOS 3.1 - Features
 
 A catalog of the DOS 3.1 System Master disk would produce this output:
 
+```
+> CATALOG
+DISK VOLUMN 254
+ I 007 HELLO
+*I 043 APPLESOFT
+ I 016 ANIMALS
+ I 009 COLOR DEMOS
+*I 004 MASTER.CREATE
+*B 039 RAWDOS
+*I 007 COPY
+*B 007 COPY.OBJ
+
+>█ 
+```
+
 "HELLO" was the startup file executed when the disk was booted. It just displayed the following:
+
+```
+  DISK II MASTER DISKETTE. VERSION 3.1
+                                      
+                             20-JUL-78
+                                      
+  COPYRIGHT 1978   APPLE COMPUTER INC.
+>█
+```
 
 stopping at the Integer BASIC prompt. "ANIMALS" was an Integer program that gave an example of the use of disk files, and "COLOR DEMOS" was a disk version of a program that had earlier come on cassette. "MASTER CREATE" was a program that could be used to initialize a "master" disk. Using the binary file "RAWDOS", it executed the DOS "INIT" command, but put a version of DOS on the newly formatted disk that was relocatable. [PH10] When DOS from a "master" disk was booted on an Apple II, it first determined what was size of the memory, and then loaded itself into memory as high as possible. The INIT command properly formatted a new disk, but created what Apple called a "slave" disk; that is, the DOS loaded from a slave disk was fixed in memory to the same size as the computer on which DOS had been booted. In most cases this would not be a problem. However, the problem would surface if someone whose Apple II had only 16K of RAM shared a disk with a friend whose computer had, say, 32K of memory. Booting that borrowed disk would make the 32K computer appear to have only 16K of RAM (since it forced DOS to load at the highest location available to a 16K machine). A "master" disk was more versatile, being "intelligent" enough to adapt itself to differing memory sizes.
 
 The Integer BASIC file "APPLESOFT" was interesting. It was a 43 sector file that appeared in a catalog as an Integer BASIC program (with the "I" filetype code). If you loaded the file and listed lines 10 through 80, there were lines that would produce the following text:
 
+```
+***************************************
+*  APPLESOFT ][ FLOATING POINT BASIC  *
+*             APRIL 1978              *
+***************************************
+
+COPYRIGHT 1978 APPLE COMPUTER
+
+COPYRIGHT 1976 BY MICROSOFT
+
+ALL RIGHTS RESERVED
+
+
+]█
+```
 
 There were also lines that poked some values into memory, and then jumped to a machine language routine that relocated Applesoft into RAM starting at $800 (the same place where Cassette Applesoft loaded). If you tried to LIST the entire program in memory, the lines after line 80 appeared to be a jumble of Integer BASIC commands. This is because a majority of the file was actually a machine language program that had been appended to the end of the short Integer BASIC program that displayed the title above and did the memory pokes. This machine language code was the Applesoft BASIC interpreter. Now, if the file "APPLESOFT" was executed by typing "RUN APPLESOFT", it would display the title and leave the cursor next to the Applesoft bracket prompt. However, DOS was no longer connected; the result was much like using Cassette Applesoft. To properly use this file with DOS, you had to type "FP" from the Integer BASIC prompt. DOS would then load the "APPLESOFT" file and properly initialize the interpreter, leaving DOS connected. Since this version of Applesoft still had a few bugs in it, this method of using Applesoft was obsoleted by the Applesoft Firmware card and the Apple II Plus. [PH9]
 
 Interestingly, the error messages produced by DOS 3.1 were made to look similar to those displayed by Integer BASIC. For example, this is what happened if an attempt was made to load a type "B" (binary) file with the "LOAD" command:
 
+```
+›LOAD COPY.OBJ
+***DISK: NOT BASIC PROGRAM
+>█
+```
 
 Integer BASIC had error messages that looked like "*** SYNTAX ERR" (with a space following the asterisks). The possible error messages in this version of DOS that were different from later versions were:
 
 ```
-## Sys error
-## Cmd syntax error
-## No file buffs avail error
-## Not basic program error
-## Not binary file error
+SYS ERROR
+CMD SYNTAX ERROR
+NO FILE BUFFS AVAIL ERROR
+NOT BASIC PROGRAM ERROR
+NOT BINARY FILE ERROR
 ```
-DOS 3.1 - USER EXPERIENCES
+
+## DOS 3.1 - User Experiences
 
 One problem encountered by early users of the Disk II was properly connecting the drive to the controller card, as discussed in Part 9 of this History. Some quirks in DOS that plagued users at the time of the first releases of DOS 3.1 included one in which LOCKing a file sometimes mysteriously caused the length of the first file in the catalog to change. Apple told people not to worry about that; in fact, they told people not to pay attention to the sector counts in the catalog at all, as there was a bug in that part of the catalog routine. Another problem in early versions of DOS 3.1 was an inability to execute READ or WRITE statements in an Applesoft program if they occurred in program lines that were numbered higher than 256. It also wouldn't allow more than one DOS command on the same line of a program, so this was not possible:
 
+```
+10  ONERR  OR GOTO 1000
+20  PRINT D$;"VERIFY FILE": PRINT
+    D$;"OPEN FILE": PRINT D$;"RE
+    AD FILE" 
+```
 
 Other bugs in early versions of DOS 3.1 included not being able to initialize disks with MASTER.CREATE unless the disk controller was moved to slot 7. (Originally, slot 7 was going to be the disk slot, but Apple decided to change it to slot 6 and leave slot 7 for video cards. Why the various 80-column cards that were eventually released were made to go into slot 3 instead of slot 7 is anybody's guess). The A.P.P.L.E. user group had patches to MASTER.CREATE and RAWDOS to fix the slot 7 INIT bug, and the >255 line number bug in Applesoft. [PH11] Apple later released a modified version of DOS 3.1 that fixed these bugs (without changing the version number).
 
-DOS 3.2 - ENHANCEMENTS
+## DOS 3.2 - Enhancements
 
 As mentioned above, DOS 3 and 3.1 had a few problems. When the Apple II Plus with the Autostart ROM was released, DOS needed to be updated to handle the changes. DOS 3.2, released in February 1979, contained several modifications, but retained 90 percent of the basic structure of DOS 3.1. One interesting change made to plan for the future was a doubling of the number of possible filetypes. The original DOS used "I" for Integer BASIC files, "A" for Applesoft, "B" for binary files, and "T" for text files. DOS 3.2 added types "S", "R", another "A", and another "B". Of those four types, only "R" was ever officially designated by Apple, and that for relocatable assembler object files.
+
+```
+  MASTER DISKETTE. VERSION 3.2 STANDARD
+                                       
+                              1-JUNE-79
+                                       
+  COPYRIGHT 1978.   APPLE COMPUTER INC.
+>█  
+```
+
 
 DOS 3.2 included a program called "UPDATE 3.2", which worked much like the earlier program "MASTER.CREATE" in changing a "slave" DOS disk into a "master" disk. As time went by, and more users had their Apple II's fully populated with 48K RAM, the need for such a utility became less and less important. [PH12]
 
 DOS 3.2 - FEATURES
 
 I've found two versions of DOS 3.2 System Master disks. The first appears to be a non-Applesoft version of the disk. A catalog of this disk would produce this output:
+
+```
+>CATALOG
+DISK VOLUME 254
+*I 002 HELLO
+*I 053 APPLE-TREK
+*I 018 ANIMALS
+*B 009 UPDATE 3.2
+
+```
 
 The file "RAWDOS" that was on the DOS 3.1 disk was no longer needed, as its function was included in the "UPDATE 3.2" program. [PH10] As you can see, some of the files from the DOS 3.1 master disk were retained, but some others were added. "APPLE-TREK" was a Star Trek game that appeared on many computers of this era, both mainframe and micro. Rather than "Klingons", this game had you hunting "Klarnons".
 
@@ -119,13 +189,11 @@ The other version of the DOS 3.2 System Master I have found produced this when a
 
 This included several Applesoft files, including a version of the color demonstration ("COLOR DEMOSOFT"), a smaller version of the older Integer BASIC game "BRICK OUT" ("LITTLE BRICK OUT"), a couple of files to show simple disk access ("MAKE TEXT" and "RETRIEVE TEXT"), and a program to exhibit the use of random-access disk files ("RANDOM", with the file "APPLE PROMS"). There was finally a program ("EXEC DEMO") that showed how to use the EXEC command in DOS. Also found on this disk were two utilities for Applesoft. One made it possible to renumber Applesoft programs, and the other ("CHAIN") allowed linking between multiple Applesoft programs, retaining the value of any variables created by the first program. There "was" a CHAIN command built into DOS, but it worked properly only with Integer BASIC programs.
 
-DOS 3.2.1
+## DOS 3.2.1
 
 In late July 1979, DOS 3.2.1 was released. This was merely a minor upgrade to make some patches to RWTS and correct a timing problem that caused the utility "COPY" to fail when copying disks with two disk drives. It also began a system disk version numbering system that persists to this day, that of adding a third digit to indicate a minor upgrade. (For example, GS/OS 5.0 changed to 5.0.1 with some bug fixes, rather than 5.1). [PH12]
 
 This disk contained the new COPY program, and a program called "UPDATE 3.2.1", which worked just as "UPDATE 3.2" and "MASTER.CREATE" had previously. The update program was used to modify existing DOS 3.2 disks to the 3.2.1 version. As an bonus, Apple added some programs to this Master disk that were on the first DOS 3.2 disk. The included games and graphics demonstrations included "APPLE-TREK", "THE INFINITE NUMBER OF MONKEYS", "BRIAN'S THEME ", and "BRICK OUT". The "HELLO" program displayed this when the disk was booted:
-
-
 
 ## Timeline
 
