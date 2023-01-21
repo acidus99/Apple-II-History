@@ -281,11 +281,11 @@ The start dates for Apple DOS 3.0 through 3.2.1, and the Apple II series of comp
 * [12] Vanderpool, Tom. GEnie, A2 Roundtable, Mar & Aug 1991, Category 2, Topic 16.
 * [13] Thyng, Mike. "Apple Source", PEEKing At Call-A.P.P.L.E., VOL. 1,1978, pp. 7-8.
 * [14] Worth and Lechner. pp. 2.1-2.3.
-* [15] Screenshot of APPLE-TREK game. [Apple II History](https://www.duxburysystems.org/downloads/library/texas/apple/history/history/ah14.html).
-* [16] Screenshot of COLOR DEMO. [Apple II History](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/colordemo.gif).
-* [17] Screenshot of BRICK OUT game. [Apple II History](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/brickout.gif).
-* [18] Screenshot of SPACE WAR game. [Apple II History](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/spacewar.gif).
-* [19] Screenshot of The Infinite Number of Monkeys. [Apple II History](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/monkeys.gif).
-* [20] Screenshot of SUPERMATH. [Apple II History](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/supermath.gif).
-* [21] Screenshot of APPLEVISION. [Apple II History](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/applevision.gif).
+* [15] Screenshot of APPLE-TREK game. [Apple II History Mirror](https://www.duxburysystems.org/downloads/library/texas/apple/history/history/ah14.html).
+* [16] Screenshot of COLOR DEMO. [Apple II History Mirror](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/colordemo.gif).
+* [17] Screenshot of BRICK OUT game. [Apple II History Mirror](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/brickout.gif).
+* [18] Screenshot of SPACE WAR game. [Apple II History Mirror](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/spacewar.gif).
+* [19] Screenshot of The Infinite Number of Monkeys. [Apple II History Mirror](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/monkeys.gif).
+* [20] Screenshot of SUPERMATH. [Apple II History Mirror](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/supermath.gif).
+* [21] Screenshot of APPLEVISION. [Apple II History Mirror](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/applevision.gif).
 
