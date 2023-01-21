@@ -1,11 +1,11 @@
 ---
-title: The Apple II Abroad & Peripherals
+title: The Apple II Abroad and Peripherals
 author: Steven Weyhrich
 date: March 21 2006
 version: v1.4
 ---
 
-# The Apple II Abroad & Peripherals
+# The Apple II Abroad and Peripherals
 
 ## The Apple II Abroad
 
