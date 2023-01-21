@@ -7,7 +7,7 @@ version: v1.0
 
 # Languages (Continued)
 
-## Apple pascal
+## Apple Pascal
 
 Applesoft was easy to use because it was interactive. You entered a command, and could immediately try it out. The disadvantage was a lack of more powerful commands, and it could be difficult to create large and complex programs. Efforts were begun within Apple to develop a more comprehensive language for the II, one that could be updated and modified if necessary. Since Applesoft was in ROM, it was more expensive and difficult for the end-user to install any upgrades to that language.
 
@@ -17,61 +17,75 @@ Apple chose to use the Pascal standard defined by the University of California a
 
 The earliest version of Apple Pascal got complaints from users because it would not support lowercase (for those who had modified their Apple to display lowercase), and it was so large that it was quite awkward to use by those who owned only one disk drive.
 
-Since the original UCSD Pascal language was designed to work with a full 80 columns of text, this was somewhat of a problem for the 40-column Apple II. For those Apple II's that did not have an 80-column card, Apple Pascal would display half of the screen at a time. In the Pascal Editor, entry of a line longer than 40 columns would cause the screen to scroll to the left. Using the arrow keys to move back to the left would scroll the screen back the other way. If needed, you could jump directly to the other half of the screen by pressing Ctrl-A. [PH1]
+Since the original UCSD Pascal language was designed to work with a full 80 columns of text, this was somewhat of a problem for the 40-column Apple II. For those Apple II's that did not have an 80-column card, Apple Pascal would display half of the screen at a time. In the Pascal Editor, entry of a line longer than 40 columns would cause the screen to scroll to the left. Using the arrow keys to move back to the left would scroll the screen back the other way. If needed, you could jump directly to the other half of the screen by pressing Ctrl-A. [1]
 
 The limitation of Apple Pascal came from the need for a user to own the Language Card (or one of the later equivalent 16K RAM cards), and the fact that it was incompatible with the large library of DOS 3.2 programs and files that were already available. Eventually, with the proliferation of the 64K Apple IIe and 128K Apple IIc, a platform for Pascal applications was available. However, by that time the primary disk system being promoted by Apple for the II was ProDOS, and Apple never officially released a version of their original UCSD Pascal that would run under that operating system.
 
 The Apple Pascal system has evolved up to version 1.3, which will support the more advanced features of the Apple IIe and IIc, but does not work as well with the IIGS as some would like. Instead, IIGS programmers now have versions of Pascal distributed by third party companies (like ORCA/Pascal from ByteWorks) created to take full advantage of that machine in 16-bit mode.
 
-## Instant pascal
+## Instant Pascal
 
 This version of Pascal was written by Think Technologies, and Apple later bought the rights to sell it as a program for teaching Pascal. It would run only on The Apple IIc or on a 128K IIe because it used the double hi-res graphics mode, functioning much like a Macintosh "desktop" with multiple resizable windows. It had a mouse-based editor that checked program syntax as each line was entered (as did the older Integer BASIC) and automatically indented lines and boldfaced Pascal reserved words. Since it was intended for teaching, it also had a single-step trace function and the ability to modify the contents of variables while a program was running. Though good for learning the language, it was quite slow because of the overhead needed to display everything in graphics, and because it was an interpreted version of Pascal (instead of a compiled version).
 
-Fans of the original Apple Pascal complained loudly after Apple introduced Instant Pascal. After this new Pascal came out, Apple didn't seem motivated to make any further upgrades to the older Pascal, which still used the original Pascal disk system format (Instant Pascal was made to run directly under ProDOS). [PH2]
+Fans of the original Apple Pascal complained loudly after Apple introduced Instant Pascal. After this new Pascal came out, Apple didn't seem motivated to make any further upgrades to the older Pascal, which still used the original Pascal disk system format (Instant Pascal was made to run directly under ProDOS). [2]
 
-## Fortran
+## FORTRAN
 
 Released by Apple in 1980, Apple ## Fortran ran under the Pascal operating system. It cost $200 (over and above the $495 needed to get the Language System). Programs written in ## Fortran for other computers could run with little modification under Apple ## Fortran (if a user needed that ability). As a compiled language, it ran faster than Applesoft, and probably also faster than Pascal, since ## Fortran wasn't translated into an intermediate "P-code". Apple's ## Fortran had many bugs in it, though, and since its introduction in 1980 it was never upgraded. By September 1986 it had disappeared from their product catalogs.
 
-Another way for an Apple II user to get ## Fortran was to buy the Microsoft Z-80 Softcard for $345 and Microsoft ## Fortran for $200. This version of ## Fortran was more full-featured than Apple's, and offered some advantages in usability. It did "not" require changing to the 16 sector disk controller ROMs (if you didn't want to). Also, standard Microsoft BASIC (which was more advanced than Applesoft) was included in the Softcard package. [PH3]
+Another way for an Apple II user to get ## Fortran was to buy the Microsoft Z-80 Softcard for $345 and Microsoft ## Fortran for $200. This version of ## Fortran was more full-featured than Apple's, and offered some advantages in usability. It did "not" require changing to the 16 sector disk controller ROMs (if you didn't want to). Also, standard Microsoft BASIC (which was more advanced than Applesoft) was included in the Softcard package. [3]
 
-In June of 1987 Pecan Software released ## Fortran for the IIGS. It ran under ProDOS 16 (GS/OS), but still used the UCSD format for its ## Fortran by creating a ProDOS file that acted as a UCSD Volume. [PH3]
+In June of 1987 Pecan Software released ## Fortran for the IIGS. It ran under ProDOS 16 (GS/OS), but still used the UCSD format for its ## Fortran by creating a ProDOS file that acted as a UCSD Volume. [3]
 
 ## Other languages
 
-PILOT: Designed primarily for creating tutorial modules, this language allowed educators to design interactive programs to instruct students and test them on their responses during the process. One early version was written in Applesoft and was text-based. Apple later released their own version that ran under the Pascal system for $125. [PH4]
+### PILOT
+Designed primarily for creating tutorial modules, this language allowed educators to design interactive programs to instruct students and test them on their responses during the process. One early version was written in Applesoft and was text-based. Apple later released their own version that ran under the Pascal system for $125. [4]
 
-FORTH: This was a interesting language described as "extensible". It had a number of built-in commands, and new ones could be added as easily as typing its definition. These added commands could then be used in larger programs. Two versions sold in the late 1970's were "Apple Forth 1.6" (Cap'n Software) and "6502 Forth 1.2" (Programma International). Apple Forth 1.6 was a good package, but it used a unique disk system that was not compatible with DOS 3.2. Programma's Forth was more extensive, but also more complicated. [PH5], [PH6]
+### FORTH
+This was a interesting language described as "extensible". It had a number of built-in commands, and new ones could be added as easily as typing its definition. These added commands could then be used in larger programs. Two versions sold in the late 1970's were "Apple Forth 1.6" (Cap'n Software) and "6502 Forth 1.2" (Programma International). Apple Forth 1.6 was a good package, but it used a unique disk system that was not compatible with DOS 3.2. Programma's Forth was more extensive, but also more complicated. [5], [6]
 
-LOGO: Developed from LISP (LISt Processing) language to be an aid for learning, Logo has been popular over the years in the school environment. Apple's first version of Logo (which operated under the Pascal system) could run on any 64K Apple II, while Apple Logo II (released in July 1984 for $100) ran under ProDOS on Apple II's with 128K memory. [PH7]
+### LOGO
+Developed from LISP (LISt Processing) language to be an aid for learning, Logo has been popular over the years in the school environment. Apple's first version of Logo (which operated under the Pascal system) could run on any 64K Apple II, while Apple Logo II (released in July 1984 for $100) ran under ProDOS on Apple II's with 128K memory. [7]
 
-COBOL: This language has had limited availability for the Apple II. The only version I am aware of was from Microsoft. It sold for $599 and ran under theCP/M system with the Microsoft Z-80 Softcard. [PH8]
+### COBOL
+This language has had limited availability for the Apple II. The only version I am aware of was from Microsoft. It sold for $599 and ran under theCP/M system with the Microsoft Z-80 Softcard. [8]
 
-C: A language that is currently popular among "power" programmers. It has some of the structure of Pascal, but also some of the low-level power of assembly language.
+### C
+A language that is currently popular among "power" programmers. It has some of the structure of Pascal, but also some of the low-level power of assembly language.
 
 ## Assemblers
 
 A large variety of Apple II assemblers have been available over the years. The earliest one, of course, was the mini-assembler that came with every Integer BASIC Apple II. The one was only good for immediate entry of assembly code; if changes were needed, much of the code would likely have to be re-entered from the beginning. Some other assemblers available in the early days include:
 
-TED/ASM: Developed at Apple and smuggled out the doors around May 1978, this assembler had memory conflicts with DOS, so they couldn't be used together. The text editor module was written by Randy Wigginton, and the assembler was written by Gary Shannon. In the early days, it was the only assembler they had available that would run on an Apple II. [PH9]
+### TED/ASM
+Developed at Apple and smuggled out the doors around May 1978, this assembler had memory conflicts with DOS, so they couldn't be used together. The text editor module was written by Randy Wigginton, and the assembler was written by Gary Shannon. In the early days, it was the only assembler they had available that would run on an Apple II. [9]
 
-RANDY'S WEEKEND ASSEMBLER: Also written by Randy Wigginton, this one slipped out of Apple in September 1978. The text editor was written mostly in SWEET-16 (Wozniak's 16-bit emulator in the Integer BASIC ROM), and was therefore slow. Unfortunately, it had its own set of bugs. [PH9]
+### RANDY'S WEEKEND ASSEMBLER
+Also written by Randy Wigginton, this one slipped out of Apple in September 1978. The text editor was written mostly in SWEET-16 (Wozniak's 16-bit emulator in the Integer BASIC ROM), and was therefore slow. Unfortunately, it had its own set of bugs. [9]
 
-MICROPRODUCTS ASSEMBLER: The first commercially available assembler for the Apple II, this was a "four character assembler", meaning that labels (a designation identifying a line or variable) could only be four characters long. Later it was expanded to work with six character labels. Despite some annoying bugs, it was inexpensive at only $39.95. [PH10]
+### MICROPRODUCTS ASSEMBLER
+The first commercially available assembler for the Apple II, this was a "four character assembler", meaning that labels (a designation identifying a line or variable) could only be four characters long. Later it was expanded to work with six character labels. Despite some annoying bugs, it was inexpensive at only $39.95. [10]
 
-SC-ASSEMBLER II: Probably the second Apple II assembler that was commercially distributed. Externally it was similar to the Microproducts assembler, but was better supported and regularly upgraded. It was very compact, and achieved that goal by making heavy use of SWEET-16 code. Consequently, it was slow when assembling. The author, Bob Sander-Cederlof, later started a popular newsletter called "Apple Assembly Lines" to both support his product and to be an information center for 6502 assembly language tips and techniques. [PH10]
+### SC-ASSEMBLER II
+Probably the second Apple II assembler that was commercially distributed. Externally it was similar to the Microproducts assembler, but was better supported and regularly upgraded. It was very compact, and achieved that goal by making heavy use of SWEET-16 code. Consequently, it was slow when assembling. The author, Bob Sander-Cederlof, later started a popular newsletter called "Apple Assembly Lines" to both support his product and to be an information center for 6502 assembly language tips and techniques. [10]
 
-BIG MAC/MERLIN: Sold originally by A.P.P.L.E. as "Big Mac", and later under the name "Merlin" by Southwestern Data Systems (later known as Roger Wagner Publishing). This assembler has been well supported over the years and has been extensively upgraded. It is one of the few remaining assemblers that have moved on to the 65816 GS/OS world, while retaining full compatibility with the previous 8-bit 6502 versions. Currently it is sold as Merlin 816 (including an 8-bit version) and Merlin 16+. The author, Glen Bredon, has also done many other programs and utilities for the Apple II.
+### BIG MAC/MERLIN
+Sold originally by A.P.P.L.E. as "Big Mac", and later under the name "Merlin" by Southwestern Data Systems (later known as Roger Wagner Publishing). This assembler has been well supported over the years and has been extensively upgraded. It is one of the few remaining assemblers that have moved on to the 65816 GS/OS world, while retaining full compatibility with the previous 8-bit 6502 versions. Currently it is sold as Merlin 816 (including an 8-bit version) and Merlin 16+. The author, Glen Bredon, has also done many other programs and utilities for the Apple II.
 
-ORCA/M: Sold by the ByteWorks, the current version was chosen by Apple Computer as the official assembler of the APW (Apple Programmer's Workshop) programming environment on the IIGS. ByteWorks has since expanded its product line to include versions of Pascal, C, BASIC, and other IIGS languages.
+### ORCA/M
+Sold by the ByteWorks, the current version was chosen by Apple Computer as the official assembler of the APW (Apple Programmer's Workshop) programming environment on the IIGS. ByteWorks has since expanded its product line to include versions of Pascal, C, BASIC, and other IIGS languages.
 
-APPLE EDASM: This was Apple's original "official" assembler for the II Plus and later 8-bit Apple II's. Though no longer actively supported (ORCA/M having supplanted it in the APW environment), the early versions for DOS 3.3 were included on the Apple Toolkit disk, which also had a hi-res character generator that could be interfaced into Applesoft programs. The early ProDOS versions of EDASM were sold with a 65c02 debugger called Bugbyter.
+### APPLE EDASM
+This was Apple's original "official" assembler for the II Plus and later 8-bit Apple II's. Though no longer actively supported (ORCA/M having supplanted it in the APW environment), the early versions for DOS 3.3 were included on the Apple Toolkit disk, which also had a hi-res character generator that could be interfaced into Applesoft programs. The early ProDOS versions of EDASM were sold with a 65c02 debugger called Bugbyter.
 
-UCSD PASCAL ASSEMBLER: Part of the Apple Pascal package, it was popular because it had macro capability, could do conditional assembly and create relocatable code, and had a good text editor. However, programs created with it could not be run on a standard (non-Language card) Apple, because there was no utility available early on to transfer the files to DOS 3.2. (Later, A.P.P.L.E. published transfer utilities called "HUFFIN" and "PUFFIN" for movement to and from DOS 3.3, named affectionately after Apple's "MUFFIN" utility for DOS 3.2 to 3.3 file transfers).
+### UCSD PASCAL ASSEMBLER
+Part of the Apple Pascal package, it was popular because it had macro capability, could do conditional assembly and create relocatable code, and had a good text editor. However, programs created with it could not be run on a standard (non-Language card) Apple, because there was no utility available early on to transfer the files to DOS 3.2. (Later, A.P.P.L.E. published transfer utilities called "HUFFIN" and "PUFFIN" for movement to and from DOS 3.3, named affectionately after Apple's "MUFFIN" utility for DOS 3.2 to 3.3 file transfers).
 
-MISCELLANEOUS OTHER ## Assemblers: ASM/65, sold by Programma; "EAT" (Edit and Assemble Text) sold by Software Concepts, and written in Integer BASIC; and L.I.S.A., sold by Laser Systems. [PH10]
+### MISCELLANEOUS OTHER
+Assemblers: ASM/65, sold by Programma; "EAT" (Edit and Assemble Text) sold by Software Concepts, and written in Integer BASIC; and L.I.S.A., sold by Laser Systems. [10]
 
-MACROS VS. SCRIPTS
+## Macros Vs. Scripts
 
 With the increase in complexity of applications programs has also come a secondary level of programming. This extension has been called a "macro", meaning that a single step would accomplish several separate ones that would ordinarily take more effort. Early examples of this were available in some DOS 3.3 utilities, where pressing Ctrl-C from the keyboard (for example) might cause the word "CATALOG" to appear on the command line. In this example, a macro was used to save keystrokes and speed up repetitive activities. Similar macros were available for BASIC programmers, making a control key sequence print many of the common BASIC keywords, speeding program entry. (This type of macro was different from macros used in some assemblers, such as Big Mac/Merlin and the Pascal assembler. Here a "macro" was a new command that was defined to represent several standard assembly operation codes. This did not shorten the final resulting program, but made it possible to more easily enter repeated sequences of assembly codes).
 
@@ -89,7 +103,7 @@ A step further along this path is the concept of "object-oriented programming" (
 
 ## Hypertext
 
-The term "hypertext" was created by _Computer Lib_ author Ted Nelson, and refers to a method of allowing a user to move from one concept to another in a text by linking the two concepts together. [PH11] The first type of program that used "hypertext" was a simple text based one. Certain words in the text of a document being viewed were marked to indicate that other information about that word was available elsewhere. Moving a cursor to that word and pressing a key would jump to the additional facts. For example, in an article about the history of music, the word "sonata" might be highlighted. Selecting this word could jump to another article that discusses sonatas in greater detail. When finished, the user could jump back over this link to the place where he left off in the original article.
+The term "hypertext" was created by _Computer Lib_ author Ted Nelson, and refers to a method of allowing a user to move from one concept to another in a text by linking the two concepts together. [11] The first type of program that used "hypertext" was a simple text based one. Certain words in the text of a document being viewed were marked to indicate that other information about that word was available elsewhere. Moving a cursor to that word and pressing a key would jump to the additional facts. For example, in an article about the history of music, the word "sonata" might be highlighted. Selecting this word could jump to another article that discusses sonatas in greater detail. When finished, the user could jump back over this link to the place where he left off in the original article.
 
 Tutor-Tech was the first comprehensive hypertext system available for the Apple II series. It worked on 8-bit Apple II's, and was designed primarily for use in a classroom setting. Entirely graphics-based, it defined certain parts of the screen as "buttons", and moving the pointer to that area could allow the program to move to a different screen or cause something else to happen. As with any graphic interface, icons that represented certain functions were used to designate commands (i.e., to exit the program, you point to a picture of door labelled "EXIT").
 
@@ -97,19 +111,19 @@ In 1986 a remarkable program became available on the Macintosh that was, for a t
 
 With the release of the IIGS, the power was finally available in the Apple II world to create a similar product. But it didn't come first from Apple Computer; instead, Roger Wagner Publishing introduced a product called HyperStudio in May of 1989. This program used the super hi-res graphics modes accessible on the IIGS to create its own type of stacks. Like HyperCard on the Macintosh, HyperStudio used buttons and objects on the screen to direct movement through a stack application. It also included a hardware card that made it possible to easily digitize sounds to use in stacks. Though more extensive than Tutor-Tech, it was not quite as flexible as HyperCard, since it lacked a true programming language.
 
-In January 1991, Apple released HyperCard IIGS, a conversion of the Macintosh product. This finally made a fully programmable hypermedia environment possible on the IIGS. Later in the year Roger Wagner Publishing responded with an updated version of HyperStudio that also included a programming language similar to HyperText that afforded more control over that stacks that were created. Although neither of these products gives the user power over details of the computer system itself (as does "C" or assembly), it does make it possible for a beginner to create programs that have outstanding graphics and sound without having to know exactly how the hardware produces these effects. This, along with the flexibility possible with these products, has led Dennis Doms in an A2-Central feature article to suggest that HyperCard IIGS (and now also possibly HyperStudio) will become the "Applesoft" of the 1990's; that is, an Apple IIGS user with HyperCard IIGS can create programs as easily as the Applesoft programmer of 1980 could do, but with far more attractive results. [PH11]
+In January 1991, Apple released HyperCard IIGS, a conversion of the Macintosh product. This finally made a fully programmable hypermedia environment possible on the IIGS. Later in the year Roger Wagner Publishing responded with an updated version of HyperStudio that also included a programming language similar to HyperText that afforded more control over that stacks that were created. Although neither of these products gives the user power over details of the computer system itself (as does "C" or assembly), it does make it possible for a beginner to create programs that have outstanding graphics and sound without having to know exactly how the hardware produces these effects. This, along with the flexibility possible with these products, has led Dennis Doms in an A2-Central feature article to suggest that HyperCard IIGS (and now also possibly HyperStudio) will become the "Applesoft" of the 1990's; that is, an Apple IIGS user with HyperCard IIGS can create programs as easily as the Applesoft programmer of 1980 could do, but with far more attractive results. [11]
 
 ## Notes
 
-* [PH1] Walls, Keith S. "The Fantastic New World Of Apple Pascal", PEEKing At Call-A.P.P.L.E., Vol 3, 1980, p. 237.
-* [PH2] Howerton, Christopher, and Purvis, Lee. "The Apple IIGS Pascal Revue", Call-A.P.P.L.E., Apr 1988, pp. 12-17.
-* [PH3] Winston, Alan B. "The Multi Lingual Apple", PEEKing At Call-A.P.P.L.E., Vol 3, 1980, pp. 222-224.
-* [PH4] Vanderpool, Tom. GEnie, A2 Roundtable, Mar & Aug 1991, Category 2, Topic 16.
-* [PH5] Winston, Alan B. "The Multi-Lingual Apple: Languages", PEEKing At Call-A.P.P.L.E., Vol 2, 1979, pp. 183-190.
-* [PH6] Cap'n Software's version was written by John Draper, the legendary phone phreaker "Cap'n Crunch" who had worked at Apple in its early days. During his time at Apple he had designed one of the first peripheral cards for the Apple II: A telephone controlling device that also just happened to be capable of hacking into long distance telephone switching systems, and was therefore quite illegal.
-* [PH7] -----. Apple Computer, Inc, Apple IIc Memory Expansion Card Owner's Guide, Singapore, 1986, pp. 2-4.
-* [PH8] -----. (ads), Call-A.P.P.L.E. In Depth #1, 1981, p. 106.
-* [PH9] Hertzfeld, Andy. "A Consumer's Guide To Apple II Assemblers", PEEKing At Call-A.P.P.L.E., Vol 2, 1979, pp. 164-166.
-* [PH10] Hyde, Randall. "Assembler Maxi-Reviews", PEEKing At Call-A.P.P.L.E., Vol 3, 1980, pp. 240-246.
-* [PH11] Doms, Dennis. "An Applesoft for the 1990's", A2-Central, Mar 1991, p. 7.09-7.13.
+* [1] Walls, Keith S. "The Fantastic New World Of Apple Pascal", PEEKing At Call-A.P.P.L.E., Vol 3, 1980, p. 237.
+* [2] Howerton, Christopher, and Purvis, Lee. "The Apple IIGS Pascal Revue", Call-A.P.P.L.E., Apr 1988, pp. 12-17.
+* [3] Winston, Alan B. "The Multi Lingual Apple", PEEKing At Call-A.P.P.L.E., Vol 3, 1980, pp. 222-224.
+* [4] Vanderpool, Tom. GEnie, A2 Roundtable, Mar & Aug 1991, Category 2, Topic 16.
+* [5] Winston, Alan B. "The Multi-Lingual Apple: Languages", PEEKing At Call-A.P.P.L.E., Vol 2, 1979, pp. 183-190.
+* [6] Cap'n Software's version was written by John Draper, the legendary phone phreaker "Cap'n Crunch" who had worked at Apple in its early days. During his time at Apple he had designed one of the first peripheral cards for the Apple II: A telephone controlling device that also just happened to be capable of hacking into long distance telephone switching systems, and was therefore quite illegal.
+* [7] -----. Apple Computer, Inc, Apple IIc Memory Expansion Card Owner's Guide, Singapore, 1986, pp. 2-4.
+* [8] -----. (ads), Call-A.P.P.L.E. In Depth #1, 1981, p. 106.
+* [9] Hertzfeld, Andy. "A Consumer's Guide To Apple II Assemblers", PEEKing At Call-A.P.P.L.E., Vol 2, 1979, pp. 164-166.
+* [10] Hyde, Randall. "Assembler Maxi-Reviews", PEEKing At Call-A.P.P.L.E., Vol 3, 1980, pp. 240-246.
+* [11] Doms, Dennis. "An Applesoft for the 1990's", A2-Central, Mar 1991, p. 7.09-7.13.
 
