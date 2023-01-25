@@ -7,6 +7,8 @@ gallery: gemtext
 	@perl -pe 's/!\[(.+)?\s\\\[\d+\\]\]\(([^\)]+)\)/=> $$2 $$1/' output/gallery.md >> output/gallery.gmi
 # catch and convert the few images that don't have a footnote in the description
 	@perl -i -pe 's/!\[(.+)?(?:\s\\\[\d+\\])?\]\(([^\)]+)\)/=> $$2 $$1/' output/gallery.gmi
+#remove footnotes from output
+	@perl -i -pe 's/\s\[\d+\]\s//' output/gallery.gmi 
 	@rm -f output/gallery.md
 
 gemtext: images
