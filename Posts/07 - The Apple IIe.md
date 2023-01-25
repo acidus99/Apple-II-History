@@ -99,7 +99,7 @@ In early 1991, Apple introduced a hardware add-on card for the Macintosh LC comp
 
 To use 5.25 disks with this Apple IIe, there was a cable that attached to the card. The cable would split into a game connector (for paddles or joystick operation) and a connector that accepted IIc and IIGS style 5.25 drives. The IIe card ran at a "normal" (1 MHz) speed and a "fast" (2 MHz) speed. [21] It had limitations, however. For a 1991 Apple II, it was limited in being unable to be accelerated beyond 2 MHz (a Zip Chip could run a standard IIe at 8 MHz), and the screen response seemed slow, since it was using a software-based Mac text display instead of the hardware-based Apple II character ROM. As a Macintosh it lacked the power and speed of the newer Macintosh II models (which also ran color displays). But if having a Apple II and a Mac in one machine was important, this was the best way to do it. This card lasted longer than the "real" Apple IIe, not being discontinued until May 1995.
 
-![Y-cable used for disk and joystick connectors [25] ](images/y-cable.gif) 
+![Y-cable used for disk and joystick connectors [25] ](images/disk-y-cable.jpg) 
 
 ## Timeline
 
@@ -114,7 +114,7 @@ The start and end dates for each model of the Apple IIe and Apple III:
 
 ## Notes
 
-* [1] Photo: The Apple III. [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Apple3.jpg).
+* [1] Photo: The Apple III. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_III,_personal_computer,_1980.jpg).
 * [2] Freiberger, Paul, and Michael Swaine. "Fire In The Valley, Part I (Book Excerpt)", A+ Magazine, Jan 1985: 45-48.
 * [3] Freiberger, Paul, and Swaine, Michael. "Fire In The Valley, Part II (Book Excerpt)", A+ Magazine, Jan 1985: 46,51.
 * [4] Rubin, Charles. "The Life & Death & Life Of The Apple II", Personal Computing, Feb 1985: 72.
@@ -138,4 +138,4 @@ The start and end dates for each model of the Apple IIe and Apple III:
 * [22] This was an early version of the Lisa project. When the 68000 microprocessor became available from Motorola, it was decided to use that as a single processor for the Lisa. Also, Jef Raskin (one of Apple's early employees) encouraged the Lisa team to visit the Xerox Palo Alto Research Center (PARC) and see the Xerox Star computer with its bit-mapped screen, icon interface and mouse pointing device. After Steve Jobs saw these wonders, he pushed strongly for the Lisa to work in that way.
 * [23] One of the problems with the Apple III involved heat production, which caused the integrated circuit chips in sockets to work themselves loose. Apple's solution even told some customers that a solution they could use was to lift the computer several inches up from the desktop, and then drop it, thus re-seating the chips! Slabihoud's excellent 8-Bit Museum (in German).
 * [24] The first Macintosh to be able to display color was the Macintosh II, released in 1987 at a base price of $3898! The Macintosh LC appeared in October 1990, at a more reasonable (?) cost of $2400, and was specifically targeted to the home user. Thanks to Ernest Allen for correcting the original statement that the Mac LC was the first color Macintosh. References from www.apple-history.com.
-* [25] Photo: Y-cable used for disk and joystick connectors. [Source](https://www.savagetaylor.com/wp-content/uploads/2018/09/appleiie_ycable-300x136.gif)
+* [25] Diagram: Y-cable used for disk and joystick connectors. [Apple II Documentation Project](https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Computers/Apple%20II/Apple%20IIe%20Card/Manuals/Apple%20IIe%20Card%20-%20Owner%27s%20Guide.pdf)
