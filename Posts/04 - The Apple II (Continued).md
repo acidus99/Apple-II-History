@@ -9,7 +9,7 @@ version: v2.0
 
 ## Other Design Features
 
-![An Apple II [1] ](images/apple-ii-side.jpg)
+![An Apple II [1] ](images/apple-ii-top.jpg)
 
 Since Steve Wozniak was the designer of the Apple-1 and II, exactly what contribution did Steve Jobs make to the effort? Unlike Wozniak, who would not think much of extra wires hanging out of a computer that worked properly, Jobs had an eye for the appearance of the final product. He wanted the Apple II to be a product that people outside the Homebrew Computer Club would want to own:
 
@@ -71,15 +71,15 @@ The start and end dates for the Apple-1 and Apple II:
 
 ## Notes
 
-* [1] Photo: An Apple II. [Apple II Documentation Project](https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Computers/Apple%20II/Apple%20II/Photos/Apple%20II%20-%20Side.jpg).
+* [1] Photo: An Apple II. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_II_IMG_4227.jpg).
 * [2] Moritz, Michael. "The Little Kingdom". New York, William Morrow and Company, Inc, 1984: 186.
 * [3] Levy, Steven. "Hackers: Heroes Of The Computer Revolution". New York, Dell Publishing Co., Inc, 1984: 263-264.
 * [4] Moritz: 189.
-* [5] Photo: Apple II Name Plate. [Apple II History Mirror](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/a2tag.gif).
+* [5] Photo: Apple II Name Plate. Crop of [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_II_IMG_4227.jpg).
 * [6] Moritz: 190-191.
 * [7] Moritz: 188.
 * [8] Photo: Apple Computer Logo (late 1976 through 1998). [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Apple_Computer_Logo_rainbow.svg).
-* [9] Photo: Apple's sign from the 1977 West Coast Computer Faire. [Source](https://www.chisholm-poster.com/large/CL52245.jpg).
+* [9] Photo: Apple's sign from the 1977 West Coast Computer Faire. [Pinterest](https://www.pinterest.com/pin/sold-price-poster-by-rob-janoff-steve-p-jobs-19552011-apple-personal-computers-june-6-0119-1100-am-cest--149463281375662763/).
 * [10] Moritz: 192-193.
 * [11] Chien, Philip. "The First Ten Years: A Look Back", The Apple II Review, Fall/Winter 1986: 12.
 * [12] Photo: Cover of Apple II reference manual, also known as the "Red Book." [Internet Archive](https://archive.org/details/aiirm/).
