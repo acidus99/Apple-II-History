@@ -7,7 +7,7 @@ version: v1.4
 
 # Magazines (Continued).
 
-## Computist (1981-1993)
+## Computist (1981 - 1993)
 
 ![Cover of Computist magazine issue #7, from 1984 [1] ](images/magazine-computist-issue-7.jpg)
 
@@ -21,7 +21,7 @@ Later issues of "Computist" were much different than it was in its early days. I
 
 See the Computist magazine archive on the Internet Archive: [https://archive.org/details/computist](https://archive.org/details/computist)
 
-## A+ Magazine (1983-1989)
+## A+ Magazine (1983 - 1989)
 
 ![Cover of A+ Magazine volume 1 number 1, from November 1983 [6] ](images/magazine-a-plus-issue-1.jpg)
 
@@ -33,7 +33,7 @@ During the latter part of "A+ Magazine"'s publishing run, Gary Little became its
 
 When "Creative Computing" had ceased publication in 1985, subscribers found their remaining issues were switched over to "A+ Magazine" by Ziff-Davis. In 1989, the publisher chose to discontinue "A+ Magazine", and allowed it to merge with "inCider" magazine.
 
-## inCider (1983-1993)
+## inCider (1983 - 1993)
 
 ![Cover of inCider magazine July 1984 issue [8] ](images/magazine-incider-july-1984.jpg)
 
@@ -57,19 +57,19 @@ If the editors of "inCider/A+" had chosen to maintain their focus on the Apple I
 
 See the [inCinder Magazine archive on the Internet Archive](https://archive.org/details/incidermagazine).
 
-## Apple IIGS Buyer's Guide (1985-1990)
+## Apple IIGS Buyer's Guide (1985 - 1990)
 
 ![Cover of Apple IIGS Buyer's Guide magazine, summer 1989 issue [13] ](images/magazine-apple-iigs-buyers-guide-summer-1989.jpg)
 
 This magazine began originally under the name, "The Apple II Review" in the Fall of 1985. After about five issues the name was changed to "The Apple IIGS Buyers Guide". The changed magazine began in the Fall of 1987, and it ceased publication in the Fall of 1990. It was published in a high gloss format, and over half of each issue was devoted to a listing of available IIGS software/hardware. [14]
 
-## II Computing (1985-1987)
+## II Computing (1985 - 1987)
 
 ![Cover of II Computing magazine issue #1, from October/November 1985 [15] ](images/magazine-ii-computing-issue-1-1985.jpg)
 
 This magazine published from October/November 1985 until December/January 1986-87, by the same publisher of started by "Antic" magazine for the Atari 8-bit line of computers and later "STart" magazine for Atari's 16-bit computer line. [16] Trying to appeal to a variety of readers from beginners to experienced Apple II users, it printed program listings (including at one time listings made for the Cauzin strip reader), reviews, and general articles. It covered items in more depth than "inCider", but less than "Call-A.P.P.L.E." or "Nibble", offering a combination of both type-in programs and general articles. It had available a companion disk available containing the programs in the magazine. [7], [17]
 
-## Open-Apple / A2-Central (1985-1995)
+## Open-Apple / A2-Central (1985 - 1995)
 
 ![Cover of Open-Apple magazine volume 2 number 1, from February 1986 [18] ](images/magazine-open-apple-volumn-2-1-february-1986.jpg)
 
@@ -120,7 +120,7 @@ Weishaar's interest in and dedication to the Apple II has been much appreciated;
 
 See the [Open-Apple/A2-Central magazine archive](https://archive.org/details/openapplemagazine) on the Internet Archive.
 
-## Compute! (1979-1994)
+## Compute! (1979 - 1994)
 
 ![Cover of Compute! magazine issue #28, from September 1982 [22] ](images/magazine-compute-issue-28-september-1982.jpg)
 
@@ -128,7 +128,7 @@ See the [Open-Apple/A2-Central magazine archive](https://archive.org/details/ope
 
 See the [Compute! magazine archive](https://archive.org/details/compute-magazine) on the Internet Archive.
 
-## Apple Orchard
+## Apple Orchard (1980 - 1984)
 
 ![Cover of Apple Orchard magazine volume 3 number 5, from November/December 1982 [23] ](images/magazine-apple-orchard-voumn-3-5-november-1982.jpg)
 
@@ -136,7 +136,7 @@ See the [Compute! magazine archive](https://archive.org/details/compute-magazine
 
 See the [Apple Orchard magazine archive](https://archive.org/details/appleorchardmagazine) on the Internet Archive.
 
-## GS+ (1989-1995)
+## GS+ (1989 - 1995)
 
 ![Cover of GS+ magazine column 4 number 1, from September 1992 [24] ](images/magazine-gs-plus-volumn-4-1-september-1992.jpg)
 
@@ -146,8 +146,8 @@ As he got more familiar with his IIc, his interest in that computer and the upco
 
 When Disbrow started his magazine in September 1989, he chose to make it exclusively for the Apple IIGS, and so named it "GS+". Published bi-monthly, the byline on the cover of each issue reminded subscribers of what made "his" magazine unique: "The First Apple IIGS Magazine + Disk Publication!" He recalled the humor and fun that he had always seen in "80-Micro", and determined to make his magazine fun in a similar way. Disbrow felt that this was especially important, considering the generally negative attitude that was prevalent among Apple II users at the time, as they saw less and less active support from Apple for their computer. Still in print at the time of this writing, "GS+" concentrates on news, software and hardware reviews, published programs and utilities for the IIGS (some with source code), and interviews with people who are involved with the IIGS. [14]
 
-## Softdisk (Sep 1981-Aug 1995)
-## Softdisk GS (Nov 1989-Mar 1997)
+## Softdisk (Sep 1981 - Aug 1995)
+## Softdisk GS (Nov 1989 - Mar 1997)
 
 ![Cover of Softdisk magazine issue #60 [25] ](images/magazine-softdisk-issue-60.jpg)
 
@@ -177,7 +177,7 @@ As of May 2002, Softdisk, Inc. existed primarily as a web-hosting and Internet s
 
 When reviewed in July 2006, access to www.softdisk.com redirects to www.bayou.net, an Internet hosting service. However, the "about" page for Softdisk still gives a timeline for the company.
 
-## II Alive (Mar 1993-Winter 1996)
+## II Alive (Mar 1993 - Winter 1996)
 
 ![Cover of II Alive magazine issue #1, from March/April 1993 [33] ](images/magazine-ii-alive-issue-1-march-1993.jpg)
 
@@ -193,7 +193,7 @@ Regular columns featured in "II Alive" included "Test Drives" (reviews of new pr
 
 Compared to "inCider", this magazine seemed to be having fun in the various articles it presented, and attempted to capture a little of the flavor of "Softalk" from the old days. Because of Quality's introduction of AppleWorks 4.0 in the fall of 1993, the November/December issue was not available until late in December (Kindall also was responsible for writing the manual for that program); however, after this they worked hard at returning to their correct bi-monthly schedule. At this time, "II Alive" is the only glossy magazine that deals with both the 8-bit and 16-bit versions of the Apple II.
 
-## Shareware Solutions II (1993-Jul 1999)
+## Shareware Solutions II (1993 - Jul 1999)
 
 ![Cover of Shareware Solutions II newsletter column 2 issue 1, from September/October 1994 [35] ](images/magazine-shareware-solutions-ii-volumn-2-issue-1.png)
 

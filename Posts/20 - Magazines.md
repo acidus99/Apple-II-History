@@ -11,7 +11,7 @@ version: v2.01
 
 From the earliest days that Apple II user groups have sprung up, there have been newsletters shared within (and often between) these groups, providing hints and tips on how to make the best use of this computer. Some of these user groups eventually turned their newsletters into nationally distributed publications, sharing the information on even a wider scale. Nationally distributed magazines that dealt with computers began to run regular columns and special articles that dealt with the Apple II, while other magazines began with the purpose of serving the Apple II community exclusively. This segment of the History will take a look at some of the publications that have grown (and sometimes failed) during the age of the Apple II. I will be concentrating on those that were either exclusive to the Apple II or that dealt heavily with it.
 
-### Micro (1977-1985)
+### Micro (1977 - 1985)
 
 ![Cover of Micro magazine issue #66 November 1983 [1] ](images/magazine-micro-66.jpg)
 
@@ -23,7 +23,7 @@ One feature that was unique to this magazine was the "Micro 6502 Bibliography", 
 
 See the Micro magazine archive on the Internet Archive: [https://archive.org/details/6502-micro-journal](https://archive.org/details/6502-micro-journal)
 
-### Call-A.P.P.L.E. (1978-1990)
+### Call-A.P.P.L.E. (1978 - 1990)
 
 ![Cover of Call-A.P.P.L.E magazine January 1986 issue [3] ](images/magazine-call-apple-january-1986.jpg)
 
@@ -58,7 +58,7 @@ Actually, Val was not quite correct in the information he presented in this lett
 
 ![Cover of Call-A.P.P.L.E magazine Winter 1990 issue [5] ](images/magazine-call-apple-january-1990.jpg)
 
-### Call-A.P.P.L.E. - Online (2002-Present)
+### Call-A.P.P.L.E. - Online (2002 - Present)
 
 ![Screenshot of Call-A.P.P.L.E. website homepage, January 2023 [6] ](images/website-call-apple.jpg)
 
@@ -66,7 +66,7 @@ Bill Martens had joined the Apple Pugetsound Program Library Exchange beginning 
 
 In the process of creating this new group, bringing back the "Call-A.P.P.L.E." magazine was part of the vision. This time, rather than a printed version and the costs associated with distribution, the A.P.P.L.E. board decided to create and distribute the magazine via -- what else? -- the Internet, via their newly formed web site, www.callapple.org, and in the Adobe Portable Document Format (PDF), which gives greater control over the appearance of each page than would be possible with formatting as HTML code for web pages. Val Golding, now 71, agreed to participate as a director, and to write again "The Editor 'Still' Bytes Back", a reprise of his former editorial column. The first issue, Volume 14, No. 1, appeared online in May 2002. Its cover format was a return to the heyday of the print magazine (see the 1981 cover that is reproduced above). Future issues will be available via subscription, and articles planned will deal with the Macintosh computer as well as articles dealing with original focus of the club, the Apple II. In fact, the June 2002 issue had a review of an IDE card for the Apple II, and even had a new Applesoft program for use with manipulating hi-res graphics screens. Again, as stated in Golding's final editorial in the previous incarnation of "Call-A.P.P.L.E.", the group has come "full circle". [7]
 
-### Softside (1978-1984)
+### Softside (1978 - 1984)
 
 ![Cover of SoftSide magazine issue #35 August 1981 [8] ](images/magazine-softside-35.jpg)
 
@@ -78,7 +78,7 @@ Like many computer publications of the time, "SoftSide" fell on hard times becau
 
 See the SoftSide magazine archive on The Internet Archive: [https://archive.org/details/softside-magazine](https://archive.org/details/softside-magazine)
 
-### Apple Assembly Line (1980-1988)
+### Apple Assembly Line (1980 - 1988)
 
 ![Masthead graphic of Apple Assembly Line [11] ](images/magazine-apple-assembly-line-masthead.gif)
 
@@ -90,7 +90,7 @@ As of January 2005, Bob Sander-Cederlof has created his own web site to host the
 
 See the Apple Assembly Line Archive: [http://www.txbobsc.com/aal/](http://www.txbobsc.com/aal/)
 
-### Nibble (1980-1992)
+### Nibble (1980 - 1992)
 
 ![Cover of Nibble magazine October 1987 issue [12] ](images/magazine-nibble-october-1987.jpg)
 
@@ -142,7 +142,7 @@ With decreasing sales, a decision was made in 1991 to no longer supply "Nibble" 
 
 (As of October 2005, "Nibble" editor Mike Harvey has made available the entire run of "Nibble" on either CD-ROM or DVD. Check out his web site at www.nibblemagazine.com.)
 
-### Peelings II (1980-unknown)
+### Peelings II (1980 - unknown)
 
 ![Cover of Peelings II magazine Volume 4 #2 1983 [15] ](images/magazine-peelings-ii-volume-4-2-1983.jpg)
 
@@ -150,7 +150,7 @@ Started around August 1980, this magazine was devoted entirely to Apple II softw
 
 See the Peelings II archive on the Internet Archive: [https://archive.org/details/peelingsii](https://archive.org/details/peelingsii)
 
-### Softalk (1980-1984)
+### Softalk (1980 - 1984)
 
 ![Cover of Softalk magazine February 1983 [17] ](images/magazine-softalk-february-1983.jpg)
 
