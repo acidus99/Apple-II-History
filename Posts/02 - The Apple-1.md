@@ -21,7 +21,7 @@ Another chip, the Motorola 6800, interested Wozniak because it resembled his fav
 
 To make the computer easier to use, Wozniak favored a keyboard over the front panel switches that came on the Altair. He also made it simple to use a television for a video terminal. (Recall that at this time the most common mechanism used for input/output was a teletype, which consisted of a keyboard, typewriter, and if you were lucky, a paper tape reader/puncher). Functionally, it was a television terminal attached to a computer, all on one printed circuit board (another enhancement over the Altair). Wozniak used two 256 x 4 PROM (programmable read-only memory) chips to create a 256 byte program (called a "monitor") that looked at the keyboard when the computer was turned on. This monitor program could not do much more than allow entry of hex bytes, examine a range of memory, and run a program at a specific address. [5] The Altair needed these "bootstrapping" instructions to be entered by hand each time the computer was turned on.
 
-![Apple-1 Test Output [6] ](images/apple-1-output.gif) 
+![Apple-1 Test Output [6] ](images/apple-1-output.png) 
 
 Because there were no cheap RAM chips available, Wozniak used shift registers to send text to the TV screen. Consequently, his video terminal was somewhat slow, displaying characters at about 60 characters per second, one character per scan of the TV screen. (This speed would be similar to watching a computer communicate via a modem at 1200 baud). It was slow by today's standards, but an advancement over the teletypes that could only type 10 characters per second. If the board was fully populated, it had 8K of dynamic RAM, allowing room to load BASIC into 4K of memory and have a little less than 4K left over for the user's programs. It had a video connector, but it was up to the owner to connect a monitor. Also, a keyboard was not included and so had to be purchased separately and then wired into a 16-pin DIP connector. The power supply had to be connected to two transformers to get 5 volts and 12 volts for the motherboard. There was no speaker, no graphics, and no color. There was a single peripheral slot, and when it was first released there was nothing available to plug into this slot. It was entirely contained on a single printed circuit board, only sixteen by twelve inches in size (most hobby computers of that time needed at least two boards), used only 30 or 40 chips, and because it could run BASIC programs it got people's attention. [7]
 
@@ -140,7 +140,7 @@ The start and end dates for the Apple-1 and Apple II:
 * [3] Moritz: 124-127.
 * [4] Photo: MOS Technology 6502 Processor. [Wikimedia](https://commons.wikimedia.org/wiki/File:MOS_6502AD_4585_top.jpg).
 * [5] Williams, Gregg and Rob Moore. "The Apple Story, Part 1: Early History." Byte Dec 1984: A69.
-* [6] Photo: Apple-1 Test Output. [Source](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/apple1display.gif).
+* [6] Photo: Apple-1 Test Output. [Apple II History Mirror](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/apple1display.gif).
 * [7] Williams & Moore: A68-A69.
 * [8] Rose, Frank. West Of Eden: The End Of Innocence At Apple Computer. New York, Penguin Books, 1989: 33.
 * [9] Photo: Apple's original logo. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_first_logo.png).
@@ -148,7 +148,7 @@ The start and end dates for the Apple-1 and Apple II:
 * [11] Williams & Moore: A69.
 * [12] Photo: Apple-1 Magazine Advertisement. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_1_Advertisement_Oct_1976.jpg).
 * [13] Moritz: 147-149.
-* [14] Photo: Apple-1 Cassette interface card. [Apple Fandom Wiki](https://apple.fandom.com/wiki/Apple-1_Cassette_Interface?file=Apple-1_Cassette_Interface.png).
+* [14] Photo: Apple-1 Cassette interface card. [Apple II Documentation Project](https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Interface%20Cards/Apple-1/Apple-1%20Cassette%20Interface/Photos/Apple-1%20Cassette%20Interface%20-%20Front.png).
 * [15] Photo: Apple-1 Logo. [Apple II History Mirror](https://www.duxburysystems.org/downloads/library/texas/apple/history/images/apple1logobig.jpg).
 * [16] Chien, Philip, "Apple's First Decade: A Look Back." The Apple II Review Fall/Winter 1986: 12.
 * [17] Apple-1 Owner's Club (20 Oct 2001).

@@ -99,7 +99,7 @@ The start and end dates for the Apple-1 and Apple II:
 
 * [1] Photo: An Apple II in a typical 1977 configuration[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_II_typical_configuration_1977.png).
 * [2] Connick, Jack. "...And Then There Was Apple." Call-A.P.P.L.E. Oct 1986: 24.
-* [3] Photo: Apple II RAM array. [Apple II History Mirror](https://www.duxburysystems.org/downloads/library/texas/apple/history/museum/images/a2ram.jpg).
+* [3] Photo: Apple II RAM array. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_II_j-plus_Main_Logic_Board.jpeg).
 * [4] "Memory Organization", Apple II Reference Manual. Cupertino, CA, Apple Computer, Inc., 1979, 1981: 70-73.
 * [5] Golding ,Val J. "Applesoft From Bottom To Top." Call-A.P.P.L.E. In Depth #1 1981: 8.
 * [6] Moritz, Michael. "The Little Kingdom". New York, William Morrow and Company, Inc, 1984: 157.
