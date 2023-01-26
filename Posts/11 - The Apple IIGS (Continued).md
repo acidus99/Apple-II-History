@@ -96,7 +96,7 @@ The expected release date came and went without any further mention of a new App
 
 The network connectivity implied by his remarks referred undoubtedly to the as-yet-unfinished Ethernet card. And with this remark it would appear that the question about a further revision of the Apple IIGS was settled for good.
 
-# ROM 04, "Mark Twain"
+## ROM 04, "Mark Twain"
 
 And yet, there were still efforts within Apple to bring about a final revision to the Apple IIGS, one that would make it better and more capable. The IIGS still had people within the company who poured out their hearts in making changes to improve the computer, both in software and hardware. Some of these same people had created the advances in the GS/OS system software that made the computer faster without requiring any changes in hardware, and also made it possible to take advantage of new peripherals as they became available. With this same fervor, they had indeed been creating the rumored next generation Apple IIGS.
 
