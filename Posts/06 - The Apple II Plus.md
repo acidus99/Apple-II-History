@@ -29,7 +29,7 @@ The RESET code was more intelligent in the Autostart ROM than in the Old Monitor
 
 The other major change, mentioned earlier, was the BASIC that was supplied in ROM. Gone was Steve Wozniak's hand-assembled Integer BASIC, in favor of the newer Applesoft. Since these ROM versions of BASIC used the same memory locations, they could not be used simultaneously. With the introduction of the II Plus, Apple also released the Applesoft Firmware Card (also known as the AppleSoft ROM Card). This card, which plugged into slot 0, made it possible for previous Apple II owners to have some of the benefits of the II Plus without having to buy an entirely new computer. Even with that card, however, you could not use features of one BASIC while the other was active, and switching from one BASIC to the other erased any program that was being used at the time. The two BASICs could be told apart by the prompt they used; Integer BASIC used the ">" character, but Applesoft used the "]" character.
 
-![Applesoft ROM Card [5] ](images/applesoft-rom-card.jpg)
+![Applesoft ROM Card [5] ](images/card-applesoft-rom-card.jpg)
 
 Another change made to the Monitor ROM made screen editing easier. The original Apple II's procedure for editing a line typed in BASIC or in the Monitor was tedious at best. To change a line of text in BASIC, you had to list the line, move the cursor up to the start of the line, and then use the right-arrow key to "copy" text from the screen into the input buffer. If you wanted to skip part of the line, you had to move the cursor past the text that you wanted to eliminate "without" using the arrow keys. If you wanted to INSERT something into the line, you had to move the cursor off the line (above it or below it), type the additional text, and then move the cursor back into the line to finish copying the original part of the line. For example, suppose you had typed this line in Applesoft and displayed it on the 40-column screen:
 
@@ -106,7 +106,7 @@ An Apple II veteran on GEnie, Dennis Ulm, kindly provided me with the following 
 
 (LITTLE BRICKOUT was an abbreviated Applesoft version of Woz's Integer BASIC Breakout game (the reason he designed the Apple II in the first place). BRIAN'S THEME was a hi-res graphics program that drew lines on the screen in various patterns:
 
-![Screenshot of Brian's Theme demo [13] ](images/brians-theme.png) 
+![Screenshot of Brian's Theme demo [13] ](images/screen-brians-theme.png) 
 
 HOPALONG CASSIDY was a "guess who" program that also used the hi-res screen). [17], [18]
 
