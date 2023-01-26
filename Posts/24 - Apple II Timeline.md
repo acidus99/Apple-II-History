@@ -1227,7 +1227,7 @@ Ladies and gentlemen, the History of the Apple II Time-Sweep. Every number one e
 
 ### April
 
-## 1991 Apple II Achievement Awards presented (a little late).
+* 1991 Apple II Achievement Awards presented (a little late).
 
 * Econ Technologies introduces their Pegasus line of internal hard drives.
 

@@ -43,9 +43,9 @@ In June of 1987 Pecan Software released ## Fortran for the IIGS. It ran under Pr
 Designed primarily for creating tutorial modules, this language allowed educators to design interactive programs to instruct students and test them on their responses during the process. One early version was written in Applesoft and was text-based. Apple later released their own version that ran under the Pascal system for $125. [4]
 
 ### FORTH
-This was a interesting language described as "extensible". It had a number of built-in commands, and new ones could be added as easily as typing its definition. These added commands could then be used in larger programs. Two versions sold in the late 1970's were "Apple Forth 1.6" (Cap'n Software) and "6502 Forth 1.2" (Programma International). Apple Forth 1.6 was a good package, but it used a unique disk system that was not compatible with DOS 3.2. Programma's Forth was more extensive, but also more complicated. [5], [6]
+This was an interesting language described as "extensible". It had a number of built-in commands, and new ones could be added as easily as typing its definition. These added commands could then be used in larger programs. Two versions sold in the late 1970's were "Apple Forth 1.6" (Cap'n Software) and "6502 Forth 1.2" (Programma International). Apple Forth 1.6 was a good package, but it used a unique disk system that was not compatible with DOS 3.2. Programma's Forth was more extensive, but also more complicated. [5], [6]
 
-### LOGO
+### Logo
 Developed from LISP (LISt Processing) language to be an aid for learning, Logo has been popular over the years in the school environment. Apple's first version of Logo (which operated under the Pascal system) could run on any 64K Apple II, while Apple Logo II (released in July 1984 for $100) ran under ProDOS on Apple II's with 128K memory. [7]
 
 ### COBOL
@@ -61,31 +61,31 @@ A large variety of Apple II assemblers have been available over the years. The e
 ### TED/ASM
 Developed at Apple and smuggled out the doors around May 1978, this assembler had memory conflicts with DOS, so they couldn't be used together. The text editor module was written by Randy Wigginton, and the assembler was written by Gary Shannon. In the early days, it was the only assembler they had available that would run on an Apple II. [9]
 
-### RANDY'S WEEKEND ASSEMBLER
+### Randy's Weekend Assembler
 Also written by Randy Wigginton, this one slipped out of Apple in September 1978. The text editor was written mostly in SWEET-16 (Wozniak's 16-bit emulator in the Integer BASIC ROM), and was therefore slow. Unfortunately, it had its own set of bugs. [9]
 
-### MICROPRODUCTS ASSEMBLER
+### Microproducts Assembler
 The first commercially available assembler for the Apple II, this was a "four character assembler", meaning that labels (a designation identifying a line or variable) could only be four characters long. Later it was expanded to work with six character labels. Despite some annoying bugs, it was inexpensive at only $39.95. [10]
 
-### SC-ASSEMBLER II
+### SC-Assembler II
 Probably the second Apple II assembler that was commercially distributed. Externally it was similar to the Microproducts assembler, but was better supported and regularly upgraded. It was very compact, and achieved that goal by making heavy use of SWEET-16 code. Consequently, it was slow when assembling. The author, Bob Sander-Cederlof, later started a popular newsletter called "Apple Assembly Lines" to both support his product and to be an information center for 6502 assembly language tips and techniques. [10]
 
-### BIG MAC/MERLIN
+### Big Mac / Merlin
 Sold originally by A.P.P.L.E. as "Big Mac", and later under the name "Merlin" by Southwestern Data Systems (later known as Roger Wagner Publishing). This assembler has been well supported over the years and has been extensively upgraded. It is one of the few remaining assemblers that have moved on to the 65816 GS/OS world, while retaining full compatibility with the previous 8-bit 6502 versions. Currently it is sold as Merlin 816 (including an 8-bit version) and Merlin 16+. The author, Glen Bredon, has also done many other programs and utilities for the Apple II.
 
 ### ORCA/M
 Sold by the ByteWorks, the current version was chosen by Apple Computer as the official assembler of the APW (Apple Programmer's Workshop) programming environment on the IIGS. ByteWorks has since expanded its product line to include versions of Pascal, C, BASIC, and other IIGS languages.
 
-### APPLE EDASM
+### Apple EDASM
 This was Apple's original "official" assembler for the II Plus and later 8-bit Apple II's. Though no longer actively supported (ORCA/M having supplanted it in the APW environment), the early versions for DOS 3.3 were included on the Apple Toolkit disk, which also had a hi-res character generator that could be interfaced into Applesoft programs. The early ProDOS versions of EDASM were sold with a 65c02 debugger called Bugbyter.
 
-### UCSD PASCAL ASSEMBLER
+### UCSD Pascal Assembler
 Part of the Apple Pascal package, it was popular because it had macro capability, could do conditional assembly and create relocatable code, and had a good text editor. However, programs created with it could not be run on a standard (non-Language card) Apple, because there was no utility available early on to transfer the files to DOS 3.2. (Later, A.P.P.L.E. published transfer utilities called "HUFFIN" and "PUFFIN" for movement to and from DOS 3.3, named affectionately after Apple's "MUFFIN" utility for DOS 3.2 to 3.3 file transfers).
 
-### MISCELLANEOUS OTHER
+### Miscellaneous Others
 Assemblers: ASM/65, sold by Programma; "EAT" (Edit and Assemble Text) sold by Software Concepts, and written in Integer BASIC; and L.I.S.A., sold by Laser Systems. [10]
 
-## Macros Vs. Scripts
+## Macros vs. Scripts
 
 With the increase in complexity of applications programs has also come a secondary level of programming. This extension has been called a "macro", meaning that a single step would accomplish several separate ones that would ordinarily take more effort. Early examples of this were available in some DOS 3.3 utilities, where pressing Ctrl-C from the keyboard (for example) might cause the word "CATALOG" to appear on the command line. In this example, a macro was used to save keystrokes and speed up repetitive activities. Similar macros were available for BASIC programmers, making a control key sequence print many of the common BASIC keywords, speeding program entry. (This type of macro was different from macros used in some assemblers, such as Big Mac/Merlin and the Pascal assembler. Here a "macro" was a new command that was defined to represent several standard assembly operation codes. This did not shorten the final resulting program, but made it possible to more easily enter repeated sequences of assembly codes).
 
