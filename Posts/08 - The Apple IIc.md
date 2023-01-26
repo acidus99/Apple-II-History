@@ -109,7 +109,7 @@ The video port worked with a standard monitor, but had access to all video signa
 
 With a battery attached to the 12V input, and a liquid crystal display, the IIc could be made into a truly portable computer. [17]
 
-### Enchancements
+## Enhancements
 
 The earliest change made available for the IIc was a motherboard swap that fixed a hardware bug causing some non-Apple modems to fail if used at 1200 baud. This modification was made only if the owner could show they needed the change (that is, they owned a 1200 baud modem that wouldn't work).
 
