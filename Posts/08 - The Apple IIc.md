@@ -147,7 +147,7 @@ The start and end dates for each model of the Apple IIc, Lisa, and early Macinto
 * [2] Rose, Frank. West Of Eden: The End Of Innocence At Apple Computer. New York, Penguin Books, 1989: 48.
 * [3] Photo: Lisa logo. [Source](https://blog.fluidui.com/prototyping-and-success-why-apple-have-lost-their-way/)
 * [4] Levy, Steven. Insanely Great (2nd edition). New York, Penguin Books, 2000: 107-111.
-* [5] Photo: Original Macintosh (128K). [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Macintosh_128k_transparency.png).
+* [5] Photo: Original Macintosh (128K). [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Macintosh,_Google_NY_office_computer_museum.jpg).
 * [6] Photo: Apple IIc system. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_II_IMG_1107.jpg).
 * [7 Rose, Frank. ibid: 110-112.
 * [8] Hogan, Thom. "Apple: The First Ten Years", A+ Magazine, Jan 1987: 45.
@@ -157,7 +157,7 @@ The start and end dates for each model of the Apple IIc, Lisa, and early Macinto
 * [12] Photo: MouseText Characters. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mousetext-original.png).
 * [13] Weishaar, Tom. "Miscellanea", Open-Apple, Aug 1985: 1.61.
 * [14] Durkee, David. "Marketalk", Softalk, Jun 1984: 54-55.
-* [15] Photo: "Apple II Forever" event at the Moscone Center 4/24/84 - from "Marketalk", Softalk, Jun 1984: 54-55. The picture shows the Apple employees holding up Apple IIc computers for the computer dealers to examine.
+* [15] Photo: "Apple II Forever" event at the Moscone Center. From Softalk June 1984 issue page 55. [Internet Archive](https://archive.org/details/softalkv4n10jun1984)
 * [16] Photo: Apple IIc rear panel. [Apple II Documentation Project](https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Computers/Apple%20II/Apple%20IIc/Photos/Apple%20IIc%20-%20Back.jpg).
 * [17] Baum, Peter. "Expanding The Unexpandable IIc", Softalk, Jun 1984: 95-97.
 * [18] Photo: Apple IIc with LCD display. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_IIc_with_LCD_display.jpg).
