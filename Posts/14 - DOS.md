@@ -50,7 +50,7 @@ Finally, one piece of trivia: Why was the first DOS released for the Apple II ca
 
 (As mentioned in Paul's note, DOS 3.0 was never actually released to the public, as it was a beta version which still had a few bugs left to fix, so "DOS 3.1" came with the first Disk II drives shipped by Apple to their dealers).
 
-# DOS 3.1 - Manual
+## DOS 3.1 - Manual
 
 When originally introduced with the new Disk II drive in 1978, DOS 3.1 had very little documentation. Because the demand for the disk drive was so great, the engineers at Apple had worked feverishly to produce enough working drives to begin shipping. They went out, although there was not time to complete a real manual on how to use the disk operating system. They did include a leaflet about some of the commands, but there were still, obviously, complaints. One letter to Apple president Mike Markkula made these blunt comments: "You [expletive deleted]. I bought an Apple with floppy and nobody, I mean nobody, in L.A. or San Diego knows how to use the [thing] for random access files. I really feel 'ripped off.' Everybody talks about this great manual in the sky that is coming out soon??? ... [more expletives]! I need this computer now in my business not next year. [Expletive]. I hope your dog dies." [9]
 
