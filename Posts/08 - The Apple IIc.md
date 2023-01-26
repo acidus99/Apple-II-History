@@ -119,7 +119,7 @@ With the UniDisk 3.5 upgrade, the internal 16K ROM was increased in size to a 32
 
 The next Apple IIc upgrade was known as the Memory Expansion Apple IIc. This came as a response to requests for the ability to add extra memory to the IIc. Applied Engineering had already produced a Z-80 coprocessor for the IIc (to allow access to CP/M software), and an expanded memory card, up to 1 MB, which would either act as a RAMdisk for ordinary ProDOS applications, or as extra memory for the AppleWorks desktop (through a special patching program). Seeing the popularity of this, Apple released this third version of the IIc ROMs and motherboard, this time with a RAM expansion slot included. The Apple IIc Memory Expansion Card could take up to 1 MB of RAM, in 256K increments. The firmware in the new ROMs made it work as a RAMdisk automatically recognized by ProDOS and following the Smartport protocol that had been designed for the UniDisk 3.5. Apple even included code in the new ROM to patch DOS 3.3 so it could be used as a RAMdisk with that system (400K maximum size), and did the same with Pascal v1.3. Also, because this firmware was in the motherboard ROM, "any" company could make memory cards to attach to this version of the IIc.
 
-![ Apple IIc Memory Expansion Card [20] ](images/apple-iic-memory-expansion-card.jpg)
+![ Apple IIc Memory Expansion Card [20] ](images/card-apple-iic-memory-expansion.jpg)
 
 Other changes made in this version of the IIc ROM included moving the mouse firmware from slot 4 to slot 7, and putting the RAMdisk firmware into slot 4. Also fixed was a bug that caused a write-protected 3.5 disk to be incorrectly identified with early versions of the UniDisk 3.5. [19], [21]
 
