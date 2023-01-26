@@ -183,31 +183,31 @@ DISK VOLUME 254
 
 The file "RAWDOS" that was on the DOS 3.1 disk was no longer needed, as its function was included in the "UPDATE 3.2" program. [12] As you can see, some of the files from the DOS 3.1 master disk were retained, but some others were added. "APPLE-TREK" was a Star Trek game that appeared on many computers of this era, both mainframe and micro. Rather than "Klingons", this game had you hunting "Klarnons".
 
-![Screenshot of APPLE-TREK game [15] ](images/screen-apple-trek.gif)
+![Screenshot of APPLE-TREK game [15] ](images/screen-apple-trek.png)
 
 "COLOR DEMO" was a demonstration of the color display abilities of the Apple II. The lo-res Kaleidoscope part of the program looked like this:
 
-![Screenshot of COLOR DEMO [16] ](images/screen-colordemo.gif)
+![Screenshot of COLOR DEMO [16] ](images/screen-colordemo.png)
 
 "BRICK OUT" was the full Apple II version of "Breakout", designed by Wozniak for Atari, and part of his inspiration for features that he designed into the Apple II from the start. This version, written by Bruce Tognazzini, allowed adjustment of all colors in the game, the width of the paddle, and more.
 
-![Screenshot of BRICK OUT game [17] ](images/screen-brickout.gif)
+![Screenshot of BRICK OUT game [17] ](images/screen-brickout.png)
 
 "SPACE WAR" was another game based on popular culture, this time patterened after Star Wars. As with "BRICK OUT", this game required use of the game paddles, but this time it required both paddles in order to adjust your aim vertically and horizontally and allow you to fire at the fighters.
 
-![Screenshot of SPACE WAR game [18] ](images/screen-spacewar.gif)
+![Screenshot of SPACE WAR game [18] ](images/screen-spacewar.png)
 
 Another program written by Bruce Tognazzini was essentially a clever set of BASIC programming tricks disguised as a joke. Complete with typewriter-like sound effects, it was amusing and educational.
 
-![Screenshot of The Infinite Number of Monkeys [19] ](images/screen-monkeys.gif)
+![Screenshot of The Infinite Number of Monkeys [19] ](images/screen-monkeys.png)
 
 Another Tognazzini program, "SUPERMATH", did drilling on math facts.
 
-![Screenshot of SUPERMATH [20] ](images/screen-supermath.gif)
+![Screenshot of SUPERMATH [20] ](images/screen-supermath.png)
 
 "APPLEVISION" was written by Bob Bishop, and was another one of those "How did they do that" type of programs. It used the mysterious and sparsely documented feature of shape tables (less easy in Integer BASIC than it was in Applesoft), and also showed the use of hi-res graphics and the display of text on the hi-res graphics screen. Additionally, it created music, in the form of "Turkey In The Straw", played on the Apple II's built-in speaker.
 
-![Screenshot of APPLEVISION demo [21] ](images/screen-applevision.gif)
+![Screenshot of APPLEVISION demo [21] ](images/screen-applevision.png)
 
 The other two demonstration programs, "BIORHYTHM" and "PINBALL" used lo-res graphics.
 

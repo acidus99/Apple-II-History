@@ -71,7 +71,7 @@ At first, VisiCalc was not a big hit. When most customers at computer stores wer
 
 This is an example of a first-version VisiCalc spreadsheet as it would have appeared on a 40-column Apple II. The "cursor" is sitting on cell A1 (which contains the text, "ITEM").
 
-![Screenshot of VisiCalc [7] ](images/screen-visicalc.gif)
+![Screenshot of VisiCalc [7] ](images/screen-visicalc.png)
 
 Here are some features unique to this first spreadsheet:
 
@@ -113,7 +113,7 @@ The original version was released in 1979. Apple Writer 1.0 had to deal with the
 
 Look at this sample of some entered text as Apple Writer would display it on the screen:
 
-![Screenshot of Apple Writer with some example text [10] ](images/screen-apple-writer.gif)
+![Screenshot of Apple Writer with some example text [10] ](images/screen-apple-writer.png)
 
 (Notice in the above box the inverse "^" cursor, ready to start the next sentence as an uppercase letter. Also notice the lack of word-wrap, the word "expanded" is split between the first and second lines.)
 

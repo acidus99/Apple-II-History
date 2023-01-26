@@ -80,7 +80,7 @@ See the SoftSide magazine archive on The Internet Archive: [https://archive.org/
 
 ### Apple Assembly Line (1980 - 1988)
 
-![Masthead graphic of Apple Assembly Line [11] ](images/magazine-apple-assembly-line-masthead.gif)
+![Masthead graphic of Apple Assembly Line [11] ](images/magazine-apple-assembly-line-masthead.png)
 
 This was something more than a newsletter, but not quite a magazine. It was edited and printed by Bob Sander-Cederlof, author of the SC-Assembler, and was written initially for support of that product. It included information about how to write assembly language routines for various projects, and one of Sander-Cederlof's favorite pastimes was finding ways to squeeze the most code into the fewest bytes possible. Often he would take sections of code from Apple's system software, disassemble it, and point out how it could have been coded more tightly or efficiently. He also included various products that he or others had written that were useful for other programmers, including a package of extensions for Applesoft that allowed 18 digit precision math functions.
 
