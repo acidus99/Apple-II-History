@@ -1,6 +1,6 @@
 # Apple II History (Markdown Export)
 
-Markdown versions of Steven Weyhrich's Apple II History Project text files with updated, properly licensed images.
+[Markdown](https://en.wikipedia.org/wiki/Markdown) versions of Steven Weyhrich's Apple II History Project text files with updated, properly licensed images.
 
 If you want to support Steven's work, he expanded his Apple II History content significantly in the early 2010's and turn it into the book: *Sophistication & Simplicity: The Life and Times of the Apple II Computer*, which is available from [Amazon](https://www.amazon.com/Sophistication-Simplicity-Times-Apple-Computer/dp/0986832278/) and other bookstores.
 
