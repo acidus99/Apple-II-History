@@ -11,13 +11,14 @@ I am a big fan of Steven Weyhrich's history of the Apple II, written in the 1990
 The versions that do exist have many issues:
 * Originally the files were just text, with minimal formatting, and ASCII art which doesn't render properly due to charsets.
 * Many versions of the TXT files have hard newlines to keep lines below 40 characters or 80 characters.
-* Part 15 was missing entirely from places like Textfiles.com
+* Part 15 was missing entirely from places like Textfiles.com.
 * Weird and inconsistent indenting, spacing.
-* Images were added later, resulting in footnotes that are out of order
-* Some images don't have footnotes
-* Images are of low quality/low resolution typical of late 1990's
-* Images come from unknown sources, with unknown usage rights, and reference URLs which no longer exists
-* Missing properly formatted metadata
+* Minor spelling errors and typos.
+* Images were added later, resulting in footnotes that are out of order.
+* Some images don't have footnotes.
+* Images are of low quality/low resolution typical of late 1990's.
+* Images come from unknown sources, with unknown usage rights, and reference URLs which no longer exists.
+* Missing properly formatted metadata.
 
 I wanted to clean this content up and make it available to [Gemini Space](https://en.wikipedia.org/wiki/Gemini_(protocol)). Luckily [an early 2000's web version](https://www.duxburysystems.org/downloads/library/texas/apple/history/history/ah01.html) is licensed under a Creative Commons License.
 
